@@ -1,0 +1,12 @@
+# UDP-alpha-D-glucose, CDP-12575, is the only child of 
+# UDP-glucose, and in nearly every case, the instantiated reactions
+# CPD-12575 participates in are present alongside the non-instantiated
+# forms (acting on UDP-D-glucose.) This adds complexity to the model and
+# degeneracy to the space of good solutions without really telling us anything
+# useful, so we remove all the CPD-12575 reactions. A few are 
+# added back, acting on UDP-D-glucose, in special_cases.txt
+CPD-12575
+
+# Drop reactions with overly generic electron acceptor/donor pair
+# (see writeup.tex for how some of these were modified and retained)
+|Acceptor|

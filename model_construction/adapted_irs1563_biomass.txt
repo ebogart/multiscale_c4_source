@@ -1,0 +1,24 @@
+HemicelluloseSink	None	{'polysaccharide_arabinose_unit': -0.548, 'polysaccharide_xylose_unit': -1.248, 'polysaccharide_mannose_unit': -0.301, 'polysaccharide_galactose_unit': -0.144,  'polysaccharide_glucose_unit': -3.254,  'polysaccharide_galacturonate_unit': -0.166, 'polysaccharide_glucuronate_unit': -0.166,  'hemicellulose_fixed_biomass': 1.0}	False
+
+FattyAcidSink	None	{'PALMITATE': -0.382, 'CPD-9245': -0.206, 'STEARIC_ACID': -0.04, 'OLEATE-CPD': -0.162, 'LINOLEIC_ACID': -0.485, 'LINOLENIC_ACID': -2.372, 'fatty_acids_fixed_biomass': 1.0}	False
+
+CarbohydratesSink	None	{'RIBOSE': -0.067, 'GLC': -0.278, 'FRU': -0.111, 'MANNOSE-6P': -0.039, 'GALACTOSE': -0.056, 'SUCROSE': -0.146, 'CELLULOSE_monomer_equivalent': -2.220, 'hemicellulose_fixed_biomass': -0.400, 'polysaccharide_galacturonate_unit': -0.259, 'carbohydrates_fixed_biomass': 1.0}	False
+
+OrganicAcidsSink	None	{'OXALATE': -0.556, 'GLYOX': -0.676, 'OXALACETIC_ACID': -1.515, 'MAL': -0.746, 'CIT': -1.562, 'CIS-ACONITATE': -1.724, 'organic_acids_fixed_biomass': 1.0}	False
+# Modified version ignoring oxalate -- see biomass_adaptation.tex
+#OrganicAcidsSink	None	{'GLYOX': -0.676, 'OXALACETIC_ACID': -1.515, 'MAL': -0.746, 'CIT': -1.562, 'CIS-ACONITATE': -1.724, 'organic_acids_fixed_biomass': 1.0}	False
+
+ProteinSink	None	{'L-ALPHA-ALANINE': -1.15, 'ARG': -0.0959, 'L-ASPARTATE': -0.414, 'CYS': -0.0313, 'GLT': -1.53, 'GLY': -0.0445, 'HIS': -0.0915, 'ILE': -0.465, 'LEU': -1.51, 'LYS': -5.71e-05, 'MET': -0.123, 'PHE': -0.314, 'PRO': -0.762, 'SER': -0.612, 'THR': -0.175, 'TRP': -0.00409, 'TYR': -0.244, 'VAL': -0.25, 'protein_fixed_biomass': 1.0}	False
+
+AminoAcidSink	None	{'L-ALPHA-ALANINE': -0.624, 'ARG': -0.319, 'L-ASPARTATE': -0.418, 'CYS': -0.231, 'GLT': -0.378, 'GLY': -0.740, 'HIS': -0.358, 'ILE': -0.424, 'LEU': -0.424, 'LYS': -0.380, 'MET': -0.373, 'PHE': -0.337, 'PRO': -0.483, 'SER': -0.529, 'THR': -0.467, 'TRP': -0.272, 'TYR': -0.307, 'VAL': -0.475, 'free_aa_fixed_biomass': 1.0}	False
+
+LigninSink	None	{'COUMARYL-ALCOHOL': -2.221, 'CONIFERYL-ALCOHOL': -1.851, 'SINAPYL-ALCOHOL': -1.587, 'lignin_fixed_biomass': 1.0}	False
+
+NucleicAcidSink	None	{'ATP': -0.247, 'GTP': -0.239, 'CTP': -0.259, 'UTP': -0.258, 'DATP': -0.255, 'DGTP': -0.247, 'DCTP': -0.268, 'TTP': -0.259, 'nucleic_acids_fixed_biomass': 1.0}	False
+
+NitrogenousBiomassSink	None	{'free_aa_fixed_biomass': -0.100, 'protein_fixed_biomass': -0.870, 'nucleic_acids_fixed_biomass': -0.030, 'nitrogenous_fixed_biomass': 1.0}	False
+
+TotalBiomassSink	None	{'nitrogenous_fixed_biomass': -0.230, 'carbohydrates_fixed_biomass': -0.565, 'fatty_acids_fixed_biomass': -0.025, 'lignin_fixed_biomass': -0.080, 'organic_acids_fixed_biomass': -0.050, 'total_fixed_biomass': 1.0}	False
+
+CombinedBiomassReaction	None	{'total_fixed_biomass': -1., 'ATP': -30., 'WATER': -30., 'ADP': 30., '|Pi|': 30., 'PROTON': 30.}	False
+

@@ -1,0 +1,68 @@
+# These have no associated genes, but allow RXN-1104, which does
+6.2.1.34-RXN
+RXN-1103
+
+# The subreactions of RXN-13191, absent from the FBA model, are in the
+# chlorophyllide a biosynthesis pathway but it itself is not (note it
+# shares gene annotations with them all.)  
+RXN-13191
+
+# Similarly, the subreactions of histidinol dehydrogenase are in the 
+# histidine biosynthesis pathway (and not the FBA model) 
+# but it itself is not in the pathway; again, all three have the same
+# gene annotations, so leave it in place
+RXN-8001
+
+# Similar subreaction vs. composite reaction issues
+# occur in leucine biosynthesis, where these reactions' subreactions
+# are officially included in the pathway
+RXN-13158
+RXN-13163
+
+# Similarly, the subreactions of RXN-13398 are annotated in the
+# chlorophyll cycle, but it itself is not
+RXN-13398
+
+# Two alternate pathways for synthesis of 
+# chlorophyll A from chlorophyllide A are included 
+# in CornCyc; each requires three reactions without assigned
+# genes, so the choice between them is arbitrary. Minor 
+# changes to the removal script may change how the optimization
+# process makes this arbitrary choice. To eliminate that sensitivity,
+# we specify that both branches should be kept.
+RXN-7658
+RXN-7659
+RXN-7660
+RXN-7664
+RXN-7665
+RXN-7666
+
+# SPONTPRO-RXN occurs spontaneously; the fact that no genes
+# are associated with it should not be held against it
+SPONTPRO-RXN
+
+# Based on analysis and prior testing, we accept that the following
+# reactions without pathway assignments will be necessary for the
+# model to function as designed; in future testing we do not penalize
+# their use, because we do not want the optimization process to
+# introduce other, potentially less plausible reactions into the model
+# in an effort to avoid these.
+
+# Palmitoleoyl-ACP hydrolase, required to produce free palmitoleate
+RXN-9550
+
+# curated nucleotide synthesis pathways produce only GMP
+GUANYL-KIN-RXN
+GDPKIN-RXN
+
+# necessary for DNA production
+GDPREDUCT-RXN
+DGDPKIN-RXN
+
+# Sphingolipid synthesis pathways require a source of
+# palmitoyl-CoA; this must be produced by one of two reactions
+# without curated pathway assignment; we prefer RXN-9623, EC 6.1.2.3,
+# long-chain-fatty-acid-CoA ligase, over 'PALMITOYL-COA-HYDROLASE-RXN',
+# EC 3.1.2.2, running in reverse.
+RXN-9623
+

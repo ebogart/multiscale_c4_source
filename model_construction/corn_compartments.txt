@@ -1,0 +1,117 @@
+# Rather than try to comprehensively assign reactions to compartments, 
+# we take a modular approach, assigning specific important pathways
+# to appropriate compartments (and adding in the transport reactions 
+# necessary to support them.) 
+
+################################################################################
+# CHLOROPLAST
+# 1. Calvin cycle. Leave copies of all reactions in the cytoplasm,
+# except Rubisco and those others noted by CornCyc to be unique to the 
+# Calvin cycle pathway
+RIB5PISOM-RXN	chloroplast	cytoplasm
+PHOSPHORIBULOKINASE-RXN	chloroplast
+RIBULP3EPIM-RXN	chloroplast	cytoplasm
+SEDOHEPTULOSE-BISPHOSPHATASE-RXN	chloroplast
+2TRANSKETO-RXN	chloroplast	cytoplasm
+1TRANSKETO-RXN	chloroplast	cytoplasm
+F16BDEPHOS-RXN	chloroplast	cytoplasm
+SEDOBISALDOL-RXN	chloroplast
+F16ALDOLASE-RXN	chloroplast	cytoplasm
+TRIOSEPISOMERIZATION-RXN	chloroplast	cytoplasm
+1.2.1.13-RXN	chloroplast
+PHOSGLYPHOS-RXN	chloroplast	cytoplasm
+RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN	chloroplast
+
+# Light reactions
+1.18.1.2-RXN	chloroplast
+PhotosystemII-mod	chloroplast
+PhotosystemI-mod	chloroplast
+CytochromeBF6Complex-mod	chloroplast
+CyclicElectronFlowPSI-mod	chloroplast
+ChloroplasticATPase-mod	chloroplast
+MehlerReaction	chloroplast
+
+# Reactive oxygen species and ascorbate-glutathione cycle
+# preserve the cytoplasmic location so that we can disentagle
+# the genes for the different localizations-- not because we 
+# expect it will function in the cytoplasm in the model,
+# where there is no source of cytoplasmic superoxide
+MDHFerredoxinReduction	chloroplast
+RXN-3521	chloroplast	cytoplasm
+# No genes for RXN-3522 appear to localize to the chloroplast;
+# an alternate monodehydroascorbate reductase is available there
+RXN-3522	cytoplasm
+RXN-3523	chloroplast	cytoplasm
+1.8.5.1-RXN	chloroplast	cytoplasm
+SUPEROX-DISMUT-RXN	chloroplast	cytoplasm
+GLUTATHIONE-REDUCT-NADPH-RXN	chloroplast	cytoplasm
+
+# C4 reactions
+# PPDK, pyrophosphatase, adenylate kinase
+PYRUVATEORTHOPHOSPHATE-DIKINASE-RXN	chloroplast
+INORGPYROPHOSPHAT-RXN	chloroplast	cytoplasm
+ADENYL-KIN-RXN	chloroplast	cytoplasm
+MALIC-NADP-RXN	chloroplast	cytoplasm
+MALATE-DEHYDROGENASE-NADP+-RXN	chloroplast
+
+# Photorespiration
+RXN-961	chloroplast
+GPH-RXN	chloroplast
+GLY3KIN-RXN	chloroplast
+
+# Starch synthesis
+# (many enzymes have multiple roles, and have been left in both compartments)
+RXN-7710	chloroplast
+GLYCOGENSYN-RXN	chloroplast
+GLUC1PADENYLTRANS-RXN	chloroplast	cytoplasm
+PHOSPHOGLUCMUT-RXN	chloroplast	cytoplasm
+GLUCOSE-6-PHOSPHATE-1-EPIMERASE-RXN	chloroplast	cytoplasm
+PGLUCISOM-RXN	chloroplast	cytoplasm
+
+################################################################################
+# MITOCHONDRION
+# TCA cycle, etc
+SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	mitochondrion
+ISOCITRATE-DEHYDROGENASE-NAD+-RXN	mitochondrion
+MALATE-DEH-RXN	mitochondrion
+ACONITATEDEHYDR-RXN	mitochondrion
+ACONITATEHYDR-RXN	mitochondrion
+CITSYN-RXN	mitochondrion
+SUCCCOASYN-RXN	mitochondrion
+2OXOGLUTARATEDEH-RXN	mitochondrion
+FUMHYDR-RXN	mitochondrion
+# Pyruvate dehydrogenase complex
+# Per the CornCyc PYRUVDEHYD-PWY this complex
+# exists in mitochondrial and chloroplastic forms;
+# here the cytoplasmic form temporarily stands in for the
+# chloroplastic
+RXN0-1134	mitochondrion	cytoplasm
+RXN0-1132	mitochondrion	cytoplasm
+RXN0-1133	mitochondrion	cytoplasm
+
+# Nucleotide metabolism
+# Per the CornCyc comment on PWY-5686
+RXN0-6491	mitochondrion
+
+# Electron transport chain
+ComplexII-mod	mitochondrion
+ComplexIII-mod	mitochondrion
+ComplexIV-mod	mitochondrion
+ComplexI-mod	mitochondrion
+ComplexV-mod	mitochondrion
+
+# Photorespiration
+GCVMULTI-RXN	mitochondrion
+GLYOHMETRANS-RXN	mitochondrion	cytoplasm
+
+################################################################################
+# PEROXISOME
+# Photorespiration
+GLYCERATE-DEHYDROGENASE-RXN	peroxisome
+RXN-969	peroxisome
+CATAL-RXN	peroxisome
+GLYCINE-AMINOTRANSFERASE-RXN	peroxisome
+SERINE-GLYOXYLATE-AMINOTRANSFERASE-RXN	peroxisome
+# malate-OAA shuttle supporting photorespiratory NADH consumption
+MALATE-DEH-RXN	peroxisome	cytoplasm
+

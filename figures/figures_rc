@@ -1,0 +1,8 @@
+figure.figsize	: 7.5, 5.85
+font.size	: 12
+legend.fontsize	: 9 # defaults to 'large' 
+text.usetex		: True
+font.family		: serif
+font.sans-serif		: helvetica
+pdf.fonttype		: 42
+legend.frameon		: False

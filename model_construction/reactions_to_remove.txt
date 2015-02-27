@@ -1,0 +1,43 @@
+# The following are replaced by ComplexI_mod_mitochondrion
+NADH-DEHYDROGENASE-RXN
+NADH-DEHYDROG-A-RXN-UBIQUINONE-8/NADH/PROTON//CPD-9956/NAD/PROTON.46.
+NADH-DEHYDROGENASE-QUINONE-RXN
+
+# replaced by ComplexII-mod_mitochondrion
+SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN-SUC/UBIQUINONE-8//CPD-9956/FUM.31.
+
+# replaced by RXN0-6491_mod
+RXN0-6491-UBIQUINONE-8/DI-H-OROTATE//CPD-9956/OROTATE.44.
+DIHYDROOROTATE-DEHYDROGENASE-RXN-UBIQUINONE-8/DI-H-OROTATE//CPD-9956/OROTATE.44.
+
+# Too generic
+NQOR-RXN
+
+# replaced by modified, chloroplastic form
+PSII-RXN 
+
+# duplicate of ALANINE-AMINOTRANSFERASE-RXN
+RXN-13698
+# duplicate of ASPAMINOTRANS-RXN 
+RXN-13697
+
+# replaced by modified, reversible form
+UDPGLUCEPIM-RXN 
+
+# replaced by its subreactions
+RXN-12440
+
+# superseded by more specific forms
+NITRATREDUCT-RXN
+1.14.19.2-RXN
+
+# replaced by modified, specific form
+RXN-821
+
+# Primary functions are non-metabolic
+RXN0-5462
+3.6.5.2-RXN
+3.6.5.5-RXN
+
+# No pathway, citations describe it as important in the animal thyroid
+RXN-10745

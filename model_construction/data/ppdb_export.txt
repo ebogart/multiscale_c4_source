@@ -1,0 +1,327 @@
+Accession	STD Annot.	TargetP	
+AC195340.3_FGP002	NADH-ubiquinone oxidoreductase 23 kDa subunit  [Source:UniProtKB/TrEMBL%3BAcc:B6T8F0]	M	
+AC216353.2_FGP005	Unknown protein	_	
+GRMZM2G003230_P01	Unknown protein	_	
+GRMZM2G003724_P01	Phosphoglycerate kinase  [Source:UniProtKB/TrEMBL%3BAcc:C0PGS2]	_	
+GRMZM2G010494_P01	Unknown protein	_	
+GRMZM2G013152_P01	Adenylate kinase  [Source:UniProtKB/TrEMBL%3BAcc:K7UTW8]	M	
+GRMZM2G014240_P01	Uncharacterized protein%3B Vacuolar proton pump-like protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P8F2]	S	
+GRMZM2G014240_P02	Uncharacterized protein%3B Vacuolar proton pump-like protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P8F2]	S	
+GRMZM2G014382_P01	NADH ubiquinone oxidoreductase B14 subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FHZ4]	M	
+GRMZM2G014382_P02	NADH ubiquinone oxidoreductase B14 subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FHZ4]	_	
+GRMZM2G015418_P01	Unknown protein	M	
+GRMZM2G016261_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TZA5]	_	
+GRMZM2G024484_P01	NADH-ubiquinone oxidoreductase 51 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FQ98]	M	
+GRMZM2G026470_P01	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FCR7]	_	
+GRMZM2G026470_P02	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FCR7]	_	
+GRMZM2G027627_P01	Pyruvate dehydrogenase E1 component alpha subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FML9]	M	
+GRMZM2G032699_P01	Unknown protein	M	
+GRMZM2G032699_P02	Unknown protein	M	
+GRMZM2G035542_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VC91]	S	
+GRMZM2G035767_P01	Unknown protein	C	
+GRMZM2G035893_P01	Unknown protein	_	
+GRMZM2G037955_P01	Unknown protein	S	
+GRMZM2G041065_P01	Pyrophosphate-energized vacuolar membrane proton pump  [Source:UniProtKB/TrEMBL%3BAcc:K7UHZ6]	S	
+GRMZM2G041418_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P7W2]	M	
+GRMZM2G041418_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P7W2]	M	
+GRMZM2G042034_P01	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	M	
+GRMZM2G042034_P02	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	_	
+GRMZM2G042034_P03	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	M	
+GRMZM2G043198_P01	Pyruvate dehydrogenase E1 beta subunit isoform 1%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:Q9ZQY3]	M	
+GRMZM2G043198_P02	Pyruvate dehydrogenase E1 beta subunit isoform 1%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:Q9ZQY3]	M	
+GRMZM2G043198_P03	Pyruvate dehydrogenase E1 beta subunit isoform 1%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:Q9ZQY3]	M	
+GRMZM2G043198_P04	Pyruvate dehydrogenase E1 beta subunit isoform 1%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:Q9ZQY3]	M	
+GRMZM2G046587_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0HFR9]	_	
+GRMZM2G046587_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0HFR9]	M	
+GRMZM2G046587_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0HFR9]	_	
+GRMZM2G047028_P01	Phosphoglycerate kinase  [Source:UniProtKB/TrEMBL%3BAcc:C0HHJ4]	C	
+GRMZM2G047028_P02	Phosphoglycerate kinase  [Source:UniProtKB/TrEMBL%3BAcc:C0HHJ4]	C	
+GRMZM2G054632_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UII7]	M	
+GRMZM2G061928_P01	Soluble inorganic pyrophosphatase  [Source:UniProtKB/Swiss-Prot%3BAcc:O48556]	_	
+GRMZM2G061928_P02	Soluble inorganic pyrophosphatase  [Source:UniProtKB/Swiss-Prot%3BAcc:O48556]	_	
+GRMZM2G061928_P03	Soluble inorganic pyrophosphatase  [Source:UniProtKB/Swiss-Prot%3BAcc:O48556]	_	
+GRMZM2G061928_P04	Soluble inorganic pyrophosphatase  [Source:UniProtKB/Swiss-Prot%3BAcc:O48556]	_	
+GRMZM2G062197_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UIW0]	_	
+GRMZM2G062197_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UIW0]	_	
+GRMZM2G068455_P01	Malate dehydrogenase  [Source:UniProtKB/TrEMBL%3BAcc:B4FFV3]	C	
+GRMZM2G068455_P02	Malate dehydrogenase  [Source:UniProtKB/TrEMBL%3BAcc:B4FFV3]	C	
+GRMZM2G068455_P03	Malate dehydrogenase  [Source:UniProtKB/TrEMBL%3BAcc:B4FFV3]	C	
+GRMZM2G069061_P01	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FBW1]	M	
+GRMZM2G069095_P01	Vacuolar H+-translocating inorganic pyrophosphatase  [Source:UniProtKB/TrEMBL%3BAcc:Q5K3Q7]	S	
+GRMZM2G069095_P02	Vacuolar H+-translocating inorganic pyrophosphatase  [Source:UniProtKB/TrEMBL%3BAcc:Q5K3Q7]	S	
+GRMZM2G069260_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P9U8]	M	
+GRMZM2G069260_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P9U8]	M	
+GRMZM2G069410_P01	Unknown protein	_	
+GRMZM2G072806_P01	NADH-ubiquinone oxidoreductase 23 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FUH1]	M	
+GRMZM2G075144_P01	Unknown protein	S	
+GRMZM2G075900_P01	H+-translocating pyrophosphatase  [Source:UniProtKB/TrEMBL%3BAcc:A0MWC0]	_	
+GRMZM2G079944_P01	Adenylate kinase  [Source:UniProtKB/TrEMBL%3BAcc:K7TN22]	M	
+GRMZM2G081387_P01	Unknown protein	C	
+GRMZM2G086882_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PM74]	_	
+GRMZM2G090487_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VC17]	M	
+GRMZM2G092923_P01	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6SLH8]	M	
+GRMZM2G092923_P02	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6SLH8]	M	
+GRMZM2G092923_P03	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6SLH8]	_	
+GRMZM2G101290_P01	Unknown protein	M	
+GRMZM2G101290_P02	Unknown protein	M	
+GRMZM2G104419_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7URL6]	S	
+GRMZM2G104918_P01	Soluble inorganic pyrophosphatase%3B Soluble inorganic pyrophosphatase isoform 1%3B Soluble inorganic pyrophosphatase isoform 2%3B Soluble inorganic pyrophosphatase isoform 3%3B Soluble inorganic pyrophosphatase isoform 4%3B Uncharacterized protein  	_	
+GRMZM2G104918_P02	Soluble inorganic pyrophosphatase%3B Soluble inorganic pyrophosphatase isoform 1%3B Soluble inorganic pyrophosphatase isoform 2%3B Soluble inorganic pyrophosphatase isoform 3%3B Soluble inorganic pyrophosphatase isoform 4%3B Uncharacterized protein  	_	
+GRMZM2G104918_P03	Soluble inorganic pyrophosphatase%3B Soluble inorganic pyrophosphatase isoform 1%3B Soluble inorganic pyrophosphatase isoform 2%3B Soluble inorganic pyrophosphatase isoform 3%3B Soluble inorganic pyrophosphatase isoform 4%3B Uncharacterized protein  	_	
+GRMZM2G104918_P04	Soluble inorganic pyrophosphatase%3B Soluble inorganic pyrophosphatase isoform 1%3B Soluble inorganic pyrophosphatase isoform 2%3B Soluble inorganic pyrophosphatase isoform 3%3B Soluble inorganic pyrophosphatase isoform 4%3B Uncharacterized protein  	_	
+GRMZM2G105207_P01	NADH-ubiquinone oxidoreductase 18 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FGH7]	M	
+GRMZM2G105207_P02	NADH-ubiquinone oxidoreductase 18 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FGH7]	C	
+GRMZM2G105207_P03	NADH-ubiquinone oxidoreductase 18 kDa subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FGH7]	M	
+GRMZM2G112956_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UY79]	_	
+GRMZM2G125193_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C4J093]	_	
+GRMZM2G125193_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C4J093]	M	
+GRMZM2G125193_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C4J093]	_	
+GRMZM2G125193_P04	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C4J093]	M	
+GRMZM2G125668_P01	Mitochondrial NADH ubiquinone oxidoreductase 29 kDa subunit%3B NADH ubiquinone oxidoreductase subunit  [Source:UniProtKB/TrEMBL%3BAcc:B6TMG9]	M	
+GRMZM2G128121_P01	Unknown protein	C	
+GRMZM2G132748_P01	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6SX90]	M	
+GRMZM2G134325_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UJG4]	S	
+GRMZM2G137139_P01	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6T5L1]	M	
+GRMZM2G137930_P01	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FJX6]	_	
+GRMZM2G137930_P02	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FJX6]	S	
+GRMZM2G137930_P03	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FJX6]	_	
+GRMZM2G137930_P04	Soluble inorganic pyrophosphatase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FJX6]	_	
+GRMZM2G139296_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TGD4]	M	
+GRMZM2G139296_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TGD4]	M	
+GRMZM2G140150_P01	Pyruvate dehydrogenase E1 component alpha subunit  [Source:UniProtKB/TrEMBL%3BAcc:B6TD83]	M	
+GRMZM2G140885_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7USN8]	M	
+GRMZM2G140885_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7USN8]	_	
+GRMZM2G141009_P01	Uridylate kinase  [Source:UniProtKB/TrEMBL%3BAcc:K7UJT5]	_	
+GRMZM2G141605_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VUY1]	_	
+GRMZM2G141667_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V9K9]	_	
+GRMZM2G147196_P01	Unknown protein	_	
+GRMZM2G147834_P01	Unknown protein	_	
+GRMZM2G148200_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VGT4]	S	
+GRMZM2G149281_P01	UMP-CMP kinase family protein%3B UMP-CMP kinase family protein isoform 1%3B UMP-CMP kinase family protein isoform 2%3B UMP-CMP kinase family protein isoform 3%3B UMP-CMP kinase family protein isoform 4  [Source:UniProtKB/TrEMBL%3BAcc:B6T904]	_	
+GRMZM2G149281_P02	UMP-CMP kinase family protein%3B UMP-CMP kinase family protein isoform 1%3B UMP-CMP kinase family protein isoform 2%3B UMP-CMP kinase family protein isoform 3%3B UMP-CMP kinase family protein isoform 4  [Source:UniProtKB/TrEMBL%3BAcc:B6T904]	_	
+GRMZM2G149281_P03	UMP-CMP kinase family protein%3B UMP-CMP kinase family protein isoform 1%3B UMP-CMP kinase family protein isoform 2%3B UMP-CMP kinase family protein isoform 3%3B UMP-CMP kinase family protein isoform 4  [Source:UniProtKB/TrEMBL%3BAcc:B6T904]	_	
+GRMZM2G149281_P04	UMP-CMP kinase family protein%3B UMP-CMP kinase family protein isoform 1%3B UMP-CMP kinase family protein isoform 2%3B UMP-CMP kinase family protein isoform 3%3B UMP-CMP kinase family protein isoform 4  [Source:UniProtKB/TrEMBL%3BAcc:B6T904]	_	
+GRMZM2G149414_P01	Fb14  [Source:UniProtKB/TrEMBL%3BAcc:B6SPR5]	_	
+GRMZM2G150014_P01	Adenylate kinase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PCK6]	M	
+GRMZM2G150014_P02	Adenylate kinase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PCK6]	M	
+GRMZM2G150014_P03	Adenylate kinase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PCK6]	M	
+GRMZM2G159570_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V219]	_	
+GRMZM2G163468_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6SP36]	S	
+GRMZM2G170927_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A390]	S	
+GRMZM2G173209_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FI76]	_	
+GRMZM2G175383_P01	Unknown protein	_	
+GRMZM2G305211_P01	Unknown protein	C	
+GRMZM2G305211_P02	Unknown protein	C	
+GRMZM2G313672_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FB98]	M	
+GRMZM2G313672_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FB98]	M	
+GRMZM2G319074_P01	Unknown protein	_	
+GRMZM2G322328_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UEB3]	M	
+GRMZM2G322328_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UEB3]	M	
+GRMZM2G330213_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FCV1]	_	
+GRMZM2G335657_P01	Dihydrolipoyl dehydrogenase  [Source:UniProtKB/TrEMBL%3BAcc:K7US39]	M	
+GRMZM2G341405_P01	Unknown protein	_	
+GRMZM2G341405_P02	Unknown protein	M	
+GRMZM2G341405_P03	Unknown protein	M	
+GRMZM2G341405_P04	Unknown protein	M	
+GRMZM2G341405_P05	Unknown protein	_	
+GRMZM2G341405_P06	Unknown protein	_	
+GRMZM2G341405_P07	Unknown protein	S	
+GRMZM2G341405_P08	Unknown protein	_	
+GRMZM2G341405_P09	Unknown protein	_	
+GRMZM2G347841_P01	Unknown protein	C	
+GRMZM2G358180_P01	Unknown protein	_	
+GRMZM2G363503_P01	Unknown protein	C	
+GRMZM2G383052_P01	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM2G383052_P02	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM2G394607_P01	Unknown protein	_	
+GRMZM2G396397_P01	NADH-ubiquinone oxidoreductase 18 kDa subunit  [Source:UniProtKB/TrEMBL%3BAcc:B6SRH1]	M	
+GRMZM2G404025_P01	NAD(P)H-quinone oxidoreductase subunit J%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P19124]	_	
+GRMZM2G405751_P01	Unknown protein	S	
+GRMZM2G407406_P01	Unknown protein	S	
+GRMZM2G411652_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TZG1]	S	
+GRMZM2G411652_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TZG1]	S	
+GRMZM2G411652_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TZG1]	S	
+GRMZM2G413055_P01	Unknown protein	C	
+GRMZM2G415359_P01	Malate dehydrogenase%2C cytoplasmic  [Source:UniProtKB/Swiss-Prot%3BAcc:Q08062]	_	
+GRMZM2G415359_P02	Malate dehydrogenase%2C cytoplasmic  [Source:UniProtKB/Swiss-Prot%3BAcc:Q08062]	_	
+GRMZM2G415359_P03	Malate dehydrogenase%2C cytoplasmic  [Source:UniProtKB/Swiss-Prot%3BAcc:Q08062]	_	
+GRMZM2G431708_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UKE5]	_	
+GRMZM2G431708_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UKE5]	_	
+GRMZM2G431708_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UKE5]	_	
+GRMZM2G433927_P01	Unknown protein	_	
+GRMZM2G443091_P01	Unknown protein	_	
+GRMZM2G448389_P01	Putative uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:Q5SBI4]	_	
+GRMZM2G450705_P01	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM2G450705_P02	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM2G455413_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TJB1]	M	
+GRMZM2G456086_P01	Ribose-5-phosphate isomerase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TI56]	M	
+GRMZM2G462140_P01	Unknown protein	_	
+GRMZM2G475437_P01	Unknown protein	_	
+GRMZM2G475482_P01	NADH dehydrogenase subunit 4L  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR42]	M	
+GRMZM2G563190_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G0B6]	M	
+GRMZM2G563190_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G0B6]	M	
+GRMZM5G800101_P01	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM5G800980_P01	NAD(P)H-quinone oxidoreductase subunit K%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P06670]	_	
+GRMZM5G801031_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6T5U0]	_	
+GRMZM5G801031_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6T5U0]	M	
+GRMZM5G801436_P01	Uncharacterized protein%3B Uridylate kinase  [Source:UniProtKB/TrEMBL%3BAcc:B4FM96]	_	
+GRMZM5G801436_P02	Uncharacterized protein%3B Uridylate kinase  [Source:UniProtKB/TrEMBL%3BAcc:B4FM96]	_	
+GRMZM5G804358_P01	NADH-ubiquinone oxidoreductase chain 4  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR38]	_	
+GRMZM5G804358_P02	NADH-ubiquinone oxidoreductase chain 4  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR38]	_	
+GRMZM5G808402_P01	ATP synthase subunit beta%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P00827]	_	
+GRMZM5G808876_P01	Unknown protein	_	
+GRMZM5G808939_P01	Photosystem II CP47 chlorophyll apoprotein  [Source:UniProtKB/Swiss-Prot%3BAcc:P05641]	M	
+GRMZM5G810298_P01	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM5G811212_P01	Lactate/malate dehydrogenase family protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UKU8]	_	
+GRMZM5G816772_P01	ATPase subunit 8  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR54]	S	
+GRMZM5G821433_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TPS7]	C	
+GRMZM5G834128_P01	NADH-ubiquinone oxidoreductase chain 5  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR55]	S	
+GRMZM5G835775_P01	NAD(P)H-quinone oxidoreductase subunit 4L%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P11646]	S	
+GRMZM5G836250_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FUZ3]	_	
+GRMZM5G836250_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FUZ3]	_	
+GRMZM5G836250_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FUZ3]	_	
+GRMZM5G839924_P01	NADH dehydrogenase subunit 9  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR40]	_	
+GRMZM5G844143_P01	Photosystem Q(B) protein  [Source:UniProtKB/Swiss-Prot%3BAcc:P48183]	M	
+GRMZM5G845611_P01	Glyceraldehyde-3-phosphate dehydrogenase B%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4F8L7]	C	
+GRMZM5G851708_P01	NADH dehydrogenase subunit 4L  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR42]	M	
+GRMZM5G852968_P01	Triosephosphate isomerase  [Source:UniProtKB/TrEMBL%3BAcc:B4FCE2]	S	
+GRMZM5G852968_P02	Triosephosphate isomerase  [Source:UniProtKB/TrEMBL%3BAcc:B4FCE2]	C	
+GRMZM5G852968_P03	Triosephosphate isomerase  [Source:UniProtKB/TrEMBL%3BAcc:B4FCE2]	C	
+GRMZM5G853723_P01	NAD(P)H-quinone oxidoreductase subunit H%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P25709]	_	
+GRMZM5G854065_P01	Unknown protein	_	
+GRMZM5G856027_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V9Q3]	C	
+GRMZM5G856027_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V9Q3]	C	
+GRMZM5G856777_P01	Photosystem II CP43 chlorophyll apoprotein  [Source:UniProtKB/Swiss-Prot%3BAcc:P48187]	M	
+GRMZM5G864407_P01	NAD(P)H-quinone oxidoreductase subunit 6%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P46621]	S	
+GRMZM5G866223_P01	NAD(P)H-quinone oxidoreductase subunit I%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P46722]	M	
+GRMZM5G874448_P01	NAD(P)H-quinone oxidoreductase subunit 1%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P25706]	_	
+GRMZM5G876106_P01	NAD(P)H-quinone oxidoreductase subunit 2 A%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P0CD58]	_	
+GRMZM5G876913_P01	NADH-ubiquinone oxidoreductase chain 3  [Source:UniProtKB/TrEMBL%3BAcc:Q0GR50]	S	
+GRMZM5G878308_P01	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	M	
+GRMZM5G878308_P02	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	_	
+GRMZM5G878308_P03	NADH-ubiquinone oxidoreductase 20 kDa subunit%3B NADH-ubiquinone oxidoreductase subunit%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4G1P2]	M	
+GRMZM5G887911_P01	Unknown protein	S	
+GRMZM5G889138_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V9Q3]	C	
+GRMZM5G889138_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V9Q3]	C	
+GRMZM5G891282_P01	Ribose-5-phosphate isomerase%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PBH7]	C	
+GRMZM5G894515_P01	NAD(P)H-quinone oxidoreductase subunit 5%2C chloroplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P46620]	S	
+GRMZM5G896790_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V0I3]	M	
+GRMZM5G897755_P01	NADH-ubiquinone oxidoreductase chain 6  [Source:UniProtKB/TrEMBL%3BAcc:P92799]	S	
+AC190772.4_FGP011	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TWM2]	S	
+AC195794.3_FGP002	Unknown protein	S	
+GRMZM2G003354_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FML5]	_	
+GRMZM2G003354_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FML5]	_	
+GRMZM2G003354_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FML5]	_	
+GRMZM2G003354_P04	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FML5]	_	
+GRMZM2G004298_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G004298_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G004298_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G011662_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FIK0]	_	
+GRMZM2G011662_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FIK0]	_	
+GRMZM2G011662_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FIK0]	_	
+GRMZM2G011662_P04	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FIK0]	_	
+GRMZM2G012530_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TKV7]	S	
+GRMZM2G016443_P01	Unknown protein	_	
+GRMZM2G016657_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7W1E7]	S	
+GRMZM2G025992_P01	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G025992_P02	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G025992_P03	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G025992_P04	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G025992_P05	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G025992_P06	Superoxide dismutase [Cu-Zn] 2  [Source:UniProtKB/Swiss-Prot%3BAcc:P11428]	_	
+GRMZM2G030772_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UAX3]	S	
+GRMZM2G039588_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A312]	_	
+GRMZM2G039588_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A312]	_	
+GRMZM2G039588_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A312]	_	
+GRMZM2G045809_P01	Germin-like protein subfamily 1 member 17%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FUT3]	S	
+GRMZM2G049930_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TPS9]	S	
+GRMZM2G059991_P01	Superoxide dismutase [Mn] 3.1%2C mitochondrial  [Source:UniProtKB/Swiss-Prot%3BAcc:P09233]	M	
+GRMZM2G061795_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VF96]	_	
+GRMZM2G065083_P01	Unknown protein	_	
+GRMZM2G065088_P01	Unknown protein	S	
+GRMZM2G071390_P01	Germin-like protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TKV2]	S	
+GRMZM2G072965_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TWN5]	S	
+GRMZM2G073371_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UE87]	_	
+GRMZM2G075925_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UDN3]	S	
+GRMZM2G081160_P01	Unknown protein	S	
+GRMZM2G087111_P01	Germin-like protein subfamily 1 member 11  [Source:UniProtKB/TrEMBL%3BAcc:B6UEL1]	S	
+GRMZM2G090245_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P9T7]	S	
+GRMZM2G090245_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P9T7]	S	
+GRMZM2G093121_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7U4C1]	_	
+GRMZM2G093606_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7URE9]	S	
+GRMZM2G093945_P01	Apospory-associated protein isoform 1%3B Apospory-associated protein isoform 2%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PFN4]	C	
+GRMZM2G093945_P02	Apospory-associated protein isoform 1%3B Apospory-associated protein isoform 2%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0PFN4]	C	
+GRMZM2G094328_P01	Germin-like protein subfamily 1 member 11  [Source:UniProtKB/TrEMBL%3BAcc:B6TTY1]	S	
+GRMZM2G096100_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G096100_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G096100_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FY73]	S	
+GRMZM2G103287_P01	Apospory-associated protein C%3B Apospory-associated protein C isoform 1%3B Apospory-associated protein C isoform 2%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6T6S5]	C	
+GRMZM2G103287_P02	Apospory-associated protein C%3B Apospory-associated protein C isoform 1%3B Apospory-associated protein C isoform 2%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B6T6S5]	C	
+GRMZM2G103512_P01	Germin-like protein 1%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FAV5]	S	
+GRMZM2G105940_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TT10]	_	
+GRMZM2G119578_P01	Apospory-associated protein%3B Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FB29]	_	
+GRMZM2G142342_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UBE3]	S	
+GRMZM2G144002_P01	Glucose-1-phosphate adenylyltransferase  [Source:UniProtKB/TrEMBL%3BAcc:A7LB43]	C	
+GRMZM2G148014_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7URF1]	_	
+GRMZM2G149714_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7U0Q4]	S	
+GRMZM2G161097_P01	Rhicadhesin receptor  [Source:UniProtKB/TrEMBL%3BAcc:B6TWC3]	S	
+GRMZM2G162078_P01	Unknown protein	M	
+GRMZM2G162078_P02	Unknown protein	M	
+GRMZM2G166141_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TJE4]	S	
+GRMZM2G178817_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UED2]	M	
+GRMZM2G304840_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V4A7]	_	
+GRMZM2G316256_P01	Unknown protein	_	
+GRMZM2G320307_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A028]	M	
+GRMZM2G320307_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A028]	_	
+GRMZM2G320307_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B8A028]	_	
+GRMZM2G332922_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TKH1]	S	
+GRMZM2G332922_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7TKH1]	S	
+GRMZM2G363004_P01	Unknown protein	_	
+GRMZM2G363004_P02	Unknown protein	_	
+GRMZM2G386138_P01	Unknown protein	S	
+GRMZM2G387127_P01	Unknown protein	S	
+GRMZM2G390498_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7UMK4]	S	
+GRMZM2G429899_P01	Glucose-1-phosphate adenylyltransferase large subunit 1%2C chloroplastic/amyloplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P55241]	_	
+GRMZM2G429899_P02	Glucose-1-phosphate adenylyltransferase large subunit 1%2C chloroplastic/amyloplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P55241]	_	
+GRMZM2G429899_P03	Glucose-1-phosphate adenylyltransferase large subunit 1%2C chloroplastic/amyloplastic  [Source:UniProtKB/Swiss-Prot%3BAcc:P55241]	_	
+GRMZM2G479523_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VJ20]	_	
+GRMZM2G557799_P01	Unknown protein	M	
+GRMZM5G806449_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FWU6]	_	
+GRMZM5G806449_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FWU6]	_	
+GRMZM5G806449_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FWU6]	_	
+GRMZM5G826194_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P7N1]	C	
+GRMZM5G826194_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:C0P7N1]	C	
+GRMZM5G855672_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FT31]	_	
+GRMZM5G855672_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FT31]	_	
+GRMZM5G864424_P01	Superoxide dismutase  [Source:UniProtKB/TrEMBL%3BAcc:B6T5J7]	C	
+GRMZM5G891739_P01	Superoxide dismutase [Cu-Zn]  [Source:UniProtKB/TrEMBL%3BAcc:B6TAX5]	_	
+GRMZM2G004824_P01	Putative threonine aldolase family protein  [Source:UniProtKB/TrEMBL%3BAcc:K7VFW7]	M	
+GRMZM2G043887_P01	L-allo-threonine aldolase%3B Putative threonine aldolase family protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TA00]	_	
+GRMZM2G043887_P02	L-allo-threonine aldolase%3B Putative threonine aldolase family protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TA00]	_	
+GRMZM2G043887_P03	L-allo-threonine aldolase%3B Putative threonine aldolase family protein  [Source:UniProtKB/TrEMBL%3BAcc:B6TA00]	_	
+GRMZM2G067974_P01	Unknown protein	M	
+GRMZM2G067974_P02	Unknown protein	M	
+GRMZM2G067974_P03	Unknown protein	M	
+GRMZM2G107469_P01	Unknown protein	M	
+GRMZM2G107469_P02	Unknown protein	M	
+GRMZM2G113959_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7V2Z5]	_	
+GRMZM2G118770_P01	Malic enzyme  [Source:UniProtKB/TrEMBL%3BAcc:K7VCQ4]	M	
+GRMZM2G147256_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FR39]	_	
+GRMZM2G147256_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FR39]	_	
+GRMZM2G147256_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FR39]	_	
+GRMZM2G147268_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FZ62]	_	
+GRMZM2G147268_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FZ62]	_	
+GRMZM2G147268_P03	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FZ62]	_	
+GRMZM2G147268_P04	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4FZ62]	_	
+GRMZM2G171116_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:K7W2S3]	_	
+GRMZM2G404237_P01	Malic enzyme  [Source:UniProtKB/TrEMBL%3BAcc:K7V3S0]	_	
+GRMZM2G404237_P02	Malic enzyme  [Source:UniProtKB/TrEMBL%3BAcc:K7V3S0]	_	
+GRMZM2G437487_P01	Serine hydroxymethyltransferase  [Source:UniProtKB/TrEMBL%3BAcc:K7VUB7]	_	
+GRMZM2G452630_P01	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4F947]	_	
+GRMZM2G452630_P02	Uncharacterized protein  [Source:UniProtKB/TrEMBL%3BAcc:B4F947]	M	
+GRMZM2G461332_P01	Unknown protein	_	
+GRMZM2G701288_P01	Unknown protein	M	
+GRMZM2G701288_P02	Unknown protein	M	
+GRMZM5G871471_P01	Unknown protein	M	
+GRMZM5G871471_P02	Unknown protein	C	
+GRMZM5G886257_P01	Malic enzyme  [Source:UniProtKB/TrEMBL%3BAcc:B6TVG1]	_	

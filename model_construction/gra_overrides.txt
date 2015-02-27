@@ -1,0 +1,527 @@
+# Disentangle the PRK genes from the CP12 and GAPDH genes, see writeup
+GRMZM2G026024	PHOSPHORIBULOKINASE_RXN_chloroplast
+GRMZM2G463280	PHOSPHORIBULOKINASE_RXN_chloroplast
+GRMZM2G162529	PHOSPHORIBULOKINASE_RXN_chloroplast
+GRMZM2G301823
+GRMZM2G480850
+GRMZM2G039723	EC_1_2_1_13_chloroplast
+GRMZM2G337113	EC_1_2_1_13_chloroplast
+GRMZM2G162845	EC_1_2_1_13_chloroplast
+
+# Separate cytosolic and plastidic fructose bisphosphate aldolases.
+# Note that we ignore the association with RXN-8631, a more generic
+# version not represented in the (reduced) model, and GRMZM2G431708's
+# association with TAGAALDOL-RXN. 
+GRMZM2G046284	F16ALDOLASE_RXN_chloroplast
+GRMZM2G069195	F16ALDOLASE_RXN_chloroplast
+GRMZM2G089365	F16ALDOLASE_RXN_chloroplast
+GRMZM2G155253	F16ALDOLASE_RXN_chloroplast
+GRMZM2G066024	F16ALDOLASE_RXN
+GRMZM2G057823	F16ALDOLASE_RXN
+GRMZM2G345493	F16ALDOLASE_RXN
+GRMZM2G431708	F16ALDOLASE_RXN
+GRMZM2G407406	F16ALDOLASE_RXN
+
+# Transketolases. 
+# Two genes are associated with 1TRANSKETO-RXN and 2TRANSKETO-RXN;
+# one is highly expressed and localized in the plastid stroma; the other 
+# is practically absent from the data and has no specific localization. 
+# Very possibly another gene is responsible for cytoplasmic transketolase
+# activity, in which case we might be artificially depressing cytoplasmic
+# pentose phosphate pathway flux.
+GRMZM2G033208	_1TRANSKETO_RXN_chloroplast	_2TRANSKETO_RXN_chloroplast
+GRMZM2G010494	_1TRANSKETO_RXN	_2TRANSKETO_RXN
+
+# Adenylate kinases.
+# Many are mitochondrial; as the model currently has
+# no mitochondrial adenylate kinase, we ignore them.
+GRMZM2G032699
+GRMZM2G079944
+GRMZM2G013152
+GRMZM2G150014
+# A number have no annotated or predicted localization;
+# we take these as cytosolic and preserve their 
+# CornCyc associations with other reactions also present 
+# in the cytoplasmic compartment, if any
+GRMZM2G141009	ADENYL_KIN_RXN	RXN-7913	CMPKI-RXN	RXN-12002
+GRMZM5G801436	ADENYL_KIN_RXN	RXN-7913	CMPKI-RXN	RXN-12002
+GRMZM5G808876	ADENYL_KIN_RXN
+GRMZM2G086882	ADENYL_KIN_RXN
+GRMZM2G149281	ADENYL_KIN_RXN	RXN-7913	CMPKI-RXN	RXN-12002
+GRMZM2G173209	ADENYL_KIN_RXN
+GRMZM2G125193	ADENYL_KIN_RXN
+GRMZM2G147196	ADENYL_KIN_RXN
+# Note that GRMZM2G092923 is annotated as 'adenylate kinase, chloroplast'
+# in PPDB but has no PPDB curated location and a TargetP prediction of 
+# mitochondrial localization; we split the difference here
+GRMZM2G092923	ADENYL_KIN_RXN	ADENYL_KIN_RXN_chloroplast
+# Five are curated or predicted to be plastdic
+GRMZM2G347841	ADENYL_KIN_RXN_chloroplast
+GRMZM2G081387	ADENYL_KIN_RXN_chloroplast
+GRMZM2G413055	ADENYL_KIN_RXN_chloroplast
+GRMZM2G030628	ADENYL_KIN_RXN_chloroplast
+GRMZM2G178192	ADENYL_KIN_RXN_chloroplast
+
+# ATP synthases. 
+# Two are vacuolar; we ignore them as the model currently ignores the vacuole
+GRMZM2G421857
+GRMZM2G128877
+# Several have no curated localization and no TargetP prediction, or are 
+# predicted to be secreted; we ignore these (not clear what they should
+# be associated with and they are expressed at a low level in the data anyway)
+GRMZM2G448389
+GRMZM2G319074
+GRMZM5G816772
+GRMZM2G037955
+GRMZM5G808402
+GRMZM2G405751
+# Chloroplastic ATP synthases
+GRMZM2G048907	ChloroplasticATPase_mod_chloroplast
+GRMZM2G063271	ChloroplasticATPase_mod_chloroplast
+GRMZM2G385622	ChloroplasticATPase_mod_chloroplast
+GRMZM2G062854	ChloroplasticATPase_mod_chloroplast
+# GRMZM2G448142 is also associated with NADH-DEHYDROG-A-RXN but 
+# we disregard this baased on its curated annotation as 
+# a CF1 beta subunit 
+GRMZM2G448142	ChloroplasticATPase_mod_chloroplast
+# Mitochondrial 
+GRMZM2G113408	ComplexV_mod_mitochondrion
+GRMZM2G321725	ComplexV_mod_mitochondrion
+GRMZM2G021331	ComplexV_mod_mitochondrion
+GRMZM2G041275	ComplexV_mod_mitochondrion
+GRMZM2G556600	ComplexV_mod_mitochondrion
+GRMZM2G371620	ComplexV_mod_mitochondrion
+
+# Fructose bisphosphatases
+# Two clearly plastidic
+GRMZM2G306732	F16BDEPHOS_RXN_chloroplast
+GRMZM2G095287	F16BDEPHOS_RXN_chloroplast
+# One clearly cytosolic
+GRMZM2G322953	F16BDEPHOS_RXN
+# One with no curated or predicted location, or clear annotation,
+# default to cytosolic
+GRMZM5G836250	F16BDEPHOS_RXN
+
+# Pyrophosphatases
+# Plastidic
+GRMZM2G090718	INORGPYROPHOSPHAT_RXN_chloroplast
+GRMZM2G363503	INORGPYROPHOSPHAT_RXN_chloroplast
+# Annotated as vacuolar, membrane associated, proton-pump-like, etc: ignore
+GRMZM2G069095
+GRMZM2G014240
+GRMZM2G075900
+GRMZM2G041065
+# Mitochondrial TargetP prediction: currently no mitochondrial pyrophosphatase; ignore
+GRMZM2G054632
+GRMZM2G015418
+# Mitochondrial TargetP prediction for at least one transcript model, but not for all:
+# treat as cytoplasmic
+GRMZM2G341405	INORGPYROPHOSPHAT_RXN
+GRMZM2G046587	INORGPYROPHOSPHAT_RXN
+# No curated location + TargetP predicts cytoplasmic or secreted
+AC216353.2_FG005	INORGPYROPHOSPHAT_RXN
+GRMZM2G148200	INORGPYROPHOSPHAT_RXN
+GRMZM2G061928	INORGPYROPHOSPHAT_RXN
+GRMZM2G026470	INORGPYROPHOSPHAT_RXN
+GRMZM2G069410	INORGPYROPHOSPHAT_RXN
+GRMZM2G104918	INORGPYROPHOSPHAT_RXN
+GRMZM2G137930	INORGPYROPHOSPHAT_RXN
+GRMZM2G170927	INORGPYROPHOSPHAT_RXN
+GRMZM2G104419	INORGPYROPHOSPHAT_RXN
+GRMZM2G035542	INORGPYROPHOSPHAT_RXN
+GRMZM2G062197	INORGPYROPHOSPHAT_RXN
+GRMZM2G035893	INORGPYROPHOSPHAT_RXN
+
+# Malate dehydrogenases
+# Plastidic: not currently represented in the model
+GRMZM2G141289
+GRMZM2G161245
+GRMZM2G068455
+GRMZM2G035767
+# Mitochondrial
+GRMZM2G154595	MALATE_DEH_RXN_mitochondrion
+GRMZM2G466833	MALATE_DEH_RXN_mitochondrion
+GRMZM2G101290	MALATE_DEH_RXN_mitochondrion
+# Cytoplasmic
+GRMZM2G415359	MALATE_DEH_RXN
+GRMZM5G811212	MALATE_DEH_RXN
+# Peroxisomal
+GRMZM2G072744	MALATE_DEH_RXN_peroxisome
+GRMZM2G077415	MALATE_DEH_RXN_peroxisome
+
+# NADH dehydrogenases
+# Mitochondrial, ComplexI_mod_mitochondrion
+GRMZM2G024484	ComplexI_mod_mitochondrion
+GRMZM2G125668	ComplexI_mod_mitochondrion
+GRMZM2G139296	ComplexI_mod_mitochondrion
+GRMZM5G801031	ComplexI_mod_mitochondrion
+AC195340.3_FG	ComplexI_mod_mitochondrion
+GRMZM2G132748	ComplexI_mod_mitochondrion
+GRMZM2G072806	ComplexI_mod_mitochondrion
+GRMZM2G396397	ComplexI_mod_mitochondrion
+GRMZM2G322328	ComplexI_mod_mitochondrion
+GRMZM2G069260	ComplexI_mod_mitochondrion
+GRMZM2G041418	ComplexI_mod_mitochondrion
+GRMZM2G475482	ComplexI_mod_mitochondrion
+GRMZM2G090487	ComplexI_mod_mitochondrion
+GRMZM2G563190	ComplexI_mod_mitochondrion
+GRMZM5G851708	ComplexI_mod_mitochondrion
+GRMZM5G866223	ComplexI_mod_mitochondrion
+GRMZM5G896790	ComplexI_mod_mitochondrion
+GRMZM2G042034	ComplexI_mod_mitochondrion
+GRMZM5G878308	ComplexI_mod_mitochondrion
+GRMZM2G004111	ComplexI_mod_mitochondrion
+GRMZM2G018941	ComplexI_mod_mitochondrion
+GRMZM2G137312	ComplexI_mod_mitochondrion
+GRMZM2G149105	ComplexI_mod_mitochondrion
+GRMZM2G004172	ComplexI_mod_mitochondrion
+GRMZM2G070716	ComplexI_mod_mitochondrion
+GRMZM2G117811	ComplexI_mod_mitochondrion
+GRMZM2G067992	ComplexI_mod_mitochondrion
+GRMZM2G051613	ComplexI_mod_mitochondrion
+GRMZM2G456603	ComplexI_mod_mitochondrion
+GRMZM2G143651	ComplexI_mod_mitochondrion
+GRMZM2G097040	ComplexI_mod_mitochondrion
+GRMZM2G037177	ComplexI_mod_mitochondrion
+GRMZM2G041028	ComplexI_mod_mitochondrion
+GRMZM2G123966	ComplexI_mod_mitochondrion
+GRMZM2G145972	ComplexI_mod_mitochondrion
+GRMZM2G126038	ComplexI_mod_mitochondrion
+GRMZM2G145854	ComplexI_mod_mitochondrion
+GRMZM2G442129	ComplexI_mod_mitochondrion
+GRMZM2G173277	ComplexI_mod_mitochondrion
+GRMZM2G040209	ComplexI_mod_mitochondrion
+GRMZM2G137139	ComplexI_mod_mitochondrion
+GRMZM2G014382	ComplexI_mod_mitochondrion
+GRMZM2G069061	ComplexI_mod_mitochondrion
+GRMZM2G313672	ComplexI_mod_mitochondrion
+GRMZM2G140885	ComplexI_mod_mitochondrion
+GRMZM2G475437	ComplexI_mod_mitochondrion
+GRMZM2G046924	ComplexI_mod_mitochondrion
+# Chloroplastic and mitochondrial targeting predicted for different models 
+# of GRMZM2G105207; spit the difference
+GRMZM2G105207	ComplexI_mod_mitochondrion	CyclicElectronFlowPSI-mod
+# Cytoplasmic or secreted TargetP results and no curated location: ignore (some 
+# have annotations as NAD(P)H-ubiquinone oxidoreductase chains/subunits, including
+# some specifically chloroplastic; but the expression levels are typically low
+# in any case)
+GRMZM2G163468
+GRMZM2G149414
+GRMZM2G330213
+GRMZM5G804358
+GRMZM2G411652
+GRMZM5G876913
+GRMZM2G134325
+GRMZM5G839924
+GRMZM5G834128
+GRMZM2G443091
+GRMZM2G141605
+GRMZM2G394607
+GRMZM2G016261
+GRMZM2G141667
+GRMZM2G112956
+GRMZM2G003230
+GRMZM5G800980
+GRMZM5G874448
+GRMZM2G175383
+GRMZM5G897755
+GRMZM2G404025
+GRMZM5G854065
+GRMZM2G075144
+GRMZM5G810298
+GRMZM5G800101
+GRMZM5G853723
+GRMZM2G450705
+GRMZM5G876106
+GRMZM5G864407
+GRMZM5G887911
+GRMZM2G383052
+GRMZM5G835775
+GRMZM5G894515
+# Chloroplast proteins; associated with cyclic electron transport; see writeup.tex
+GRMZM5G889138	CyclicElectronFlowPSI-mod
+GRMZM5G856027	CyclicElectronFlowPSI-mod
+GRMZM2G176216	CyclicElectronFlowPSI-mod
+GRMZM2G405584	CyclicElectronFlowPSI-mod
+GRMZM2G137648	CyclicElectronFlowPSI-mod
+GRMZM2G358205	CyclicElectronFlowPSI-mod
+GRMZM2G110277	CyclicElectronFlowPSI-mod
+GRMZM2G109244	CyclicElectronFlowPSI-mod
+GRMZM2G304947	CyclicElectronFlowPSI-mod
+GRMZM2G335564	CyclicElectronFlowPSI-mod
+GRMZM2G444541	CyclicElectronFlowPSI-mod
+GRMZM2G354804	CyclicElectronFlowPSI-mod
+GRMZM2G172442	CyclicElectronFlowPSI-mod
+GRMZM2G427444	CyclicElectronFlowPSI-mod
+GRMZM2G474534	CyclicElectronFlowPSI-mod
+
+# PGK: PHOSGLYPHOS_RXN,PHOSGLYPHOS_RXN_chloroplast
+# Cytosolic
+GRMZM2G382914	PHOSGLYPHOS_RXN
+GRMZM2G003724	PHOSGLYPHOS_RXN
+# Chloroplastic (2G089136 and 2G083016 curated, 2G047028 based on TargetP)
+GRMZM2G089136	PHOSGLYPHOS_RXN_chloroplast
+GRMZM2G083016	PHOSGLYPHOS_RXN_chloroplast
+GRMZM2G047028	PHOSGLYPHOS_RXN_chloroplast
+
+# RIB5PISOM-RXN: RIB5PISOM_RXN,RIB5PISOM_RXN_chloroplast
+# Cytosolic
+GRMZM2G035599	RIB5PISOM_RXN
+GRMZM2G104070	RIB5PISOM_RXN
+# Chloroplastic
+GRMZM5G891282	RIB5PISOM_RXN_chloroplast
+# GRMZM2G456086 has no curated location, TargetP prediction of
+# mitochondrial location; however the mitochondrial location doesn't
+# make a great deal of sense. Given the gene's high expression level,
+# increasing towards the tip of the leaf, we tentatively associate it 
+# with the chloroplast.
+GRMZM2G456086	RIB5PISOM_RXN_chloroplast
+
+# RIBULP3EPIM-RXN: RIBULP3EPIM_RXN,RIBULP3EPIM_RXN_chloroplast
+# Chloroplastic
+GRMZM2G026807	RIBULP3EPIM_RXN_chloroplast
+GRMZM2G178960	RIBULP3EPIM_RXN_chloroplast
+# Cytosolic
+GRMZM2G083102	RIBULP3EPIM_RXN
+
+# Pyruvate dehydrogenase complex components
+# E3, dihydrolipoamide dehydrogenase,  RXN0-1132: RXN0_1132_mitochondrion,RXN0_1132
+# Mitochondrial
+GRMZM2G335657	RXN0_1132_mitochondrion
+# Chloroplastic (here treated as cytosolic)
+GRMZM2G145595	RXN0_1132
+GRMZM2G152958	RXN0_1132
+GRMZM2G073774	RXN0_1132
+# Cytosolic predicted location; assume incorrect, split across both possible locations
+GRMZM2G462140	RXN0_1132_mitochondrion
+GRMZM2G159570	RXN0_1132_mitochondrion
+
+# E2, dihydrolipoamide acetyltransferase, RXN0-1133: RXN0_1133,RXN0_1133_mitochondrion
+# Chloroplastic (here treated as cytosolic)
+GRMZM2G117786	RXN0_1133
+GRMZM2G121200	RXN0_1133
+GRMZM2G058702	RXN0_1133
+GRMZM2G036534	RXN0_1133
+GRMZM2G165176	RXN0_1133
+# Mitochondrial 
+GRMZM2G015132	RXN0_1133_mitochondrion
+GRMZM2G082664	RXN0_1133_mitochondrion
+GRMZM2G161969	RXN0_1133_mitochondrion
+
+# E1, RXN0-1134: RXN0_1134,RXN0_1134_mitochondrion
+# Chloroplastic (here treated as cytosolic)
+GRMZM2G088565	RXN0_1134
+GRMZM2G033894	RXN0_1134
+GRMZM2G127546	RXN0_1134
+GRMZM2G128121	RXN0_1134
+# Mitochondrial
+GRMZM2G043198	RXN0_1134_mitochondrion
+GRMZM2G140150	RXN0_1134_mitochondrion
+GRMZM2G027627	RXN0_1134_mitochondrion
+GRMZM2G361693	RXN0_1134_mitochondrion
+GRMZM2G097226	RXN0_1134_mitochondrion
+# Cytosolic predicted location; assume incorrect, split across both possible locations
+GRMZM2G147834	RXN0_1134	RXN0_1134_mitochondrion
+
+# Triose phosphate isomerase: TRIOSEPISOMERIZATION_RXN,TRIOSEPISOMERIZATION_RXN_chloroplast
+# Chloroplastic
+GRMZM5G852968	TRIOSEPISOMERIZATION_RXN_chloroplast
+GRMZM2G002807	TRIOSEPISOMERIZATION_RXN_chloroplast
+GRMZM2G305211	TRIOSEPISOMERIZATION_RXN_chloroplast
+# Cytosolic
+GRMZM2G026182	TRIOSEPISOMERIZATION_RXN
+GRMZM2G030784	TRIOSEPISOMERIZATION_RXN
+GRMZM2G018177	TRIOSEPISOMERIZATION_RXN
+GRMZM2G419024	TRIOSEPISOMERIZATION_RXN
+GRMZM2G346168	TRIOSEPISOMERIZATION_RXN
+GRMZM2G435244	TRIOSEPISOMERIZATION_RXN
+GRMZM2G370275	TRIOSEPISOMERIZATION_RXN
+GRMZM2G146206	TRIOSEPISOMERIZATION_RXN
+GRMZM2G439389	TRIOSEPISOMERIZATION_RXN
+
+# Reactions of the ascorbate-glutathione cycle
+# Dehydroascorbate reductase: EC_1_8_5_1,EC_1_8_5_1_chloroplast
+# Cytosolic
+GRMZM5G855672	EC_1_8_5_1
+GRMZM2G035502	EC_1_8_5_1
+GRMZM2G005710	EC_1_8_5_1
+# Chloroplastic
+GRMZM5G826194	EC_1_8_5_1_chloroplast
+
+# Glutathione reducatse: GLUTATHIONE_REDUCT_NADPH_RXN_chloroplast,GLUTATHIONE_REDUCT_NADPH_RXN
+# Cytosolic
+GRMZM5G806449	GLUTATHIONE_REDUCT_NADPH_RXN
+GRMZM2G304840	GLUTATHIONE_REDUCT_NADPH_RXN
+# Chloroplastic
+GRMZM2G172322	GLUTATHIONE_REDUCT_NADPH_RXN_chloroplast
+
+# Ascorbate peroxidase: RXN_3521_chloroplast,RXN_3521
+# Chloroplastic
+GRMZM2G006791	RXN_3521_chloroplast
+GRMZM2G120517	RXN_3521_chloroplast
+GRMZM2G014397	RXN_3521_chloroplast
+# Cytosolic (inc. secreted TargetP predictions)
+GRMZM2G137839	RXN_3521
+GRMZM2G140667	RXN_3521
+GRMZM2G054300	RXN_3521
+GRMZM2G323182	RXN_3521
+GRMZM2G093346	RXN_3521
+GRMZM2G150356	RXN_3521
+GRMZM2G316256	RXN_3521
+GRMZM2G081160	RXN_3521
+GRMZM2G332922	RXN_3521
+# Mitochondrial/peroxisomal (ignored)
+GRMZM2G460406
+GRMZM2G004211
+GRMZM2G557799
+
+# Monodehydroascorbate reductase: RXN_3522,RXN_3522_chloroplast
+# Peroxisomal (ignored)
+GRMZM2G134708
+GRMZM2G084881
+# Cytosolic/mitochondrial
+GRMZM2G320307	RXN_3522
+
+# Superoxide dismutase: SUPEROX_DISMUT_RXN_chloroplast,SUPEROX_DISMUT_RXN
+# Chloroplastic
+GRMZM5G864424	SUPEROX_DISMUT_RXN_chloroplast
+GRMZM2G173628	SUPEROX_DISMUT_RXN_chloroplast
+GRMZM2G005526	SUPEROX_DISMUT_RXN_chloroplast
+GRMZM2G081585	SUPEROX_DISMUT_RXN_chloroplast
+GRMZM2G106928	SUPEROX_DISMUT_RXN_chloroplast
+GRMZM2G042080	SUPEROX_DISMUT_RXN_chloroplast
+# Cytosolic (includes curated 'not plastid' location)
+GRMZM2G064096	SUPEROX_DISMUT_RXN
+GRMZM2G058522	SUPEROX_DISMUT_RXN
+GRMZM2G169890	SUPEROX_DISMUT_RXN
+GRMZM2G025992	SUPEROX_DISMUT_RXN
+GRMZM5G891739	SUPEROX_DISMUT_RXN
+GRMZM2G479523	SUPEROX_DISMUT_RXN
+GRMZM2G016443	SUPEROX_DISMUT_RXN
+GRMZM2G148014	SUPEROX_DISMUT_RXN
+GRMZM2G363004	SUPEROX_DISMUT_RXN
+GRMZM2G093121	SUPEROX_DISMUT_RXN
+GRMZM2G073371	SUPEROX_DISMUT_RXN
+GRMZM2G105940	SUPEROX_DISMUT_RXN
+# Mitochondrial, or 'secreted' TargetP prediction (ignored)
+GRMZM2G124455
+GRMZM2G059991
+GRMZM2G178817
+GRMZM2G065088
+GRMZM2G142342
+GRMZM2G016657
+GRMZM2G075925
+GRMZM2G090245
+GRMZM2G166141
+GRMZM2G386138
+GRMZM2G045809
+GRMZM2G387127
+AC190772.4_FG
+GRMZM2G012530
+GRMZM2G072965
+AC195794.3_FG
+GRMZM2G030772
+GRMZM2G071390
+GRMZM2G049930
+GRMZM2G087111
+GRMZM2G103512
+GRMZM2G161097
+GRMZM2G390498
+GRMZM2G094328
+GRMZM2G004298
+GRMZM2G096100
+GRMZM2G149714
+AC190772.4_FG011
+AC195794.3_FG002
+GRMZM2G093606
+
+# Starch synthesis
+# ADP-glucose pyrophosphorylase: GLUC1PADENYLTRANS_RXN,GLUC1PADENYLTRANS_RXN_chloroplast
+# Chloroplastic (GRMZM2G429899 assigned on basis of its standard annotation rather than PPDB curation or TargetP)
+GRMZM2G391936	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G163437	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G027955	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G106213	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G068506	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G144002	GLUC1PADENYLTRANS_RXN_chloroplast
+GRMZM2G429899	GLUC1PADENYLTRANS_RXN_chloroplast
+# Cytosolic
+GRMZM2G061795	GLUC1PADENYLTRANS_RXN
+
+# GLUCOSE-6-PHOSPHATE-1-EPIMERASE-RXN: EC_5_1_3_15_chloroplast,EC_5_1_3_15
+# Chloroplastic
+GRMZM2G093945	EC_5_1_3_15_chloroplast
+GRMZM2G103287	EC_5_1_3_15_chloroplast
+# Cytosolic
+GRMZM2G003354	EC_5_1_3_15
+GRMZM2G011662	EC_5_1_3_15
+GRMZM2G119578	EC_5_1_3_15
+GRMZM2G039588	EC_5_1_3_15
+
+# Phosphoglucose isomerase: PGLUCISOM_RXN_chloroplast,PGLUCISOM_RXN
+# Chloroplastic
+GRMZM2G076075	PGLUCISOM_RXN_chloroplast
+GRMZM2G140614	PGLUCISOM_RXN_chloroplast
+# Cytosolic
+GRMZM2G065083	PGLUCISOM_RXN
+# Mitochondrial (ignored)
+GRMZM2G162078
+
+# Phosphoglucomutase: PHOSPHOGLUCMUT_RXN_chloroplast,PHOSPHOGLUCMUT_RXN
+# Chloroplastic
+GRMZM2G025854	PHOSPHOGLUCMUT_RXN_chloroplast
+GRMZM2G067908	PHOSPHOGLUCMUT_RXN_chloroplast
+GRMZM2G069676	PHOSPHOGLUCMUT_RXN_chloroplast
+# Cytosolic
+GRMZM2G023289	PHOSPHOGLUCMUT_RXN
+GRMZM2G109383	PHOSPHOGLUCMUT_RXN
+
+# SHMT: GLYOHMETRANS_RXN,GLYOHMETRANS_RXN_mitochondrion
+# cytosolic
+GRMZM2G171116	GLYOHMETRANS_RXN
+GRMZM2G147256	GLYOHMETRANS_RXN
+GRMZM2G113959	GLYOHMETRANS_RXN
+GRMZM2G043887	GLYOHMETRANS_RXN
+GRMZM2G437487	GLYOHMETRANS_RXN
+GRMZM2G147268	GLYOHMETRANS_RXN
+# mitochondrial
+GRMZM2G039238	GLYOHMETRANS_RXN_mitochondrion
+GRMZM2G452630	GLYOHMETRANS_RXN_mitochondrion
+GRMZM2G004824	GLYOHMETRANS_RXN_mitochondrion
+GRMZM2G067974	GLYOHMETRANS_RXN_mitochondrion
+GRMZM2G701288	GLYOHMETRANS_RXN_mitochondrion
+GRMZM2G107469	GLYOHMETRANS_RXN_mitochondrion
+GRMZM5G871471	GLYOHMETRANS_RXN_mitochondrion
+# These two, curated as 'not plastid', have TargetP predictions of C and M respectively
+# (looked up manually, not in export file.) Not clear how to interpret the 
+# definitively wrong chloroplast prediction-- have left both annotations in place;
+# data will be split across them.
+GRMZM2G078143	GLYOHMETRANS_RXN_mitochondrion	GLYOHMETRANS_RXN
+GRMZM2G135283	GLYOHMETRANS_RXN_mitochondrion
+
+# NADP-ME: MALIC_NADP_RXN_chloroplast,MALIC_NADP_RXN
+# Chloroplastic 
+GRMZM2G085019	MALIC_NADP_RXN_chloroplast
+GRMZM2G122479	MALIC_NADP_RXN_chloroplast
+# Chloroplastic, also associated with NADP-MDH in CornCyc
+# and curated exclusively as the latter by PPDB
+GRMZM2G129513	MALATE_DEHYDROGENASE_NADP__RXN_chloroplast
+# Cytosolic (including 'not plastid' curated)
+GRMZM5G886257	MALIC_NADP_RXN
+GRMZM2G159724	MALIC_NADP_RXN
+GRMZM2G404237	MALIC_NADP_RXN
+GRMZM2G461332	MALIC_NADP_RXN
+# Mitochondrial (ignored; no mitochondrial instance in model)
+GRMZM2G118770
+# Mitochondrial, and curated by PPDB as NAD-ME (no
+# mitochondrial NAD-ME implemented yet.)
+GRMZM2G085747	EC_1_1_1_39
+GRMZM2G406672	EC_1_1_1_39
+
+
+
+
+
+
+
+

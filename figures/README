@@ -1,0 +1,13 @@
+To redraw the figures, copy the output of the fitting calculations
+(gradient_fit.py, fit_zero_scales.pickle, fit_fixed_biomass.pickle,
+fit_eflux.pickle, fit_eflux_fixed.pickle, key_fva_broad.pickle,
+figure2_data.pickle) to this directory; then run figures.py)
+
+Note that the autoradiograph panel of figure 3 must be edited in
+manually.
+
+Data in proteomics/mRNA_proteomics.pickle is from Ponnala, L., et al,
+Correlation of mRNA and protein abundance in the developing maize
+leaf. The Plant Journal 78:424–440 (2014).
+
+

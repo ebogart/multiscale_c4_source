@@ -1,0 +1,75 @@
+################################################################################
+# CHLOROPLAST
+
+chloroplast_CO2_exchange	None	{'CARBON-DIOXIDE': -1., 'CARBON-DIOXIDE_chloroplast': 1.}	True
+chloroplast_water_exchange	None	{'WATER': -1., 'WATER_chloroplast': 1.}	True
+chloroplast_proton_exchange	None	{'PROTON': -1., 'PROTON_chloroplast': 1.}	True
+chloroplast_O2_exchange	None	{'OXYGEN-MOLECULE': -1., 'OXYGEN-MOLECULE_chloroplast': 1.}	True
+chloroplast_TPT_GAP_exchange	None	{'|Pi|': 1., 'GAP': -1., 'GAP_chloroplast': 1.,  '|Pi|_chloroplast': -1.}	True
+chloroplast_TPT_G3P_exchange	None	{'|Pi|': 1., 'G3P': -1., 'G3P_chloroplast': 1.,  '|Pi|_chloroplast': -1.}	True
+chloroplast_TPT_DHAP_exchange	None	{'|Pi|': 1., 'DIHYDROXY-ACETONE-PHOSPHATE': -1., 'DIHYDROXY-ACETONE-PHOSPHATE_chloroplast': 1.,  '|Pi|_chloroplast': -1.}	True
+chloroplast_light_exchange	None	{'|Light|': -1., '|Light|_chloroplast': 1.}	True
+
+# C4 pathway support
+chloroplast_pyruvate_exchange	None	{'PYRUVATE': -1., 'PYRUVATE_chloroplast': 1.}	True
+chloroplast_pep_exchange	None	{'PHOSPHO-ENOL-PYRUVATE': -1., '|Pi|': 1., 'PHOSPHO-ENOL-PYRUVATE_chloroplast': 1., '|Pi|_chloroplast': -1.}	True
+chloroplast_malate_exchange	None	{'MAL': -1., 'MAL_chloroplast': 1.}	True
+chloroplast_oxaloacetate_exchange	None	{'OXALACETIC_ACID': -1., 'OXALACETIC_ACID_chloroplast': 1.}	True
+
+# photorespiratory pathway support
+# As summarized by Howitz and McCarty, Plant Physiology 96:1060 (1991),
+# gycolate and glycerate are transported across the the chloroplast
+# envelope by the same transporter, but this may proceed either as a
+# direct glycolate/glycerate exchange or as unidirectional transport
+# of either substrate with proton symport, so the overall stoichiometry
+# is not set mechanistically. (I have ignored the proton symport
+# because protons can currently be exchanged freely between chloroplast
+# and cytoplasm.)
+chloroplast_glycolate_exchange	None	{'GLYCOLLATE': 1., 'GLYCOLLATE_chloroplast': -1.}	True 
+chloroplast_glycolate_glycerate_exchange	None	{'GLYCERATE': -1., 'GLYCERATE_chloroplast': 1.,}	True 
+
+# TEMPORARY ferredoxin supply to the cytosol
+chloroplast_abstract_ferredoxin_exchange	None	{'|Oxidized-ferredoxins|_chloroplast': 1.0, '|Reduced-ferredoxins|_chloroplast': -1.0, '|Oxidized-ferredoxins|': -1.0, '|Reduced-ferredoxins|': 1.0}	True
+
+################################################################################
+# MITOCHONDRION
+# All of this needs double-checking against the literature
+# Current version taken from the AraMeta mitochondrial module, except pyruvate (?)
+mitochondrion_pyruvate_exchange	None	{'PYRUVATE': -1., 'PYRUVATE_mitochondrion': 1.}	True
+mitochondrion_CO2_exchange	None	{'CARBON-DIOXIDE': -1., 'CARBON-DIOXIDE_mitochondrion': 1.}	True
+mitochondrion_water_exchange	None	{'WATER': -1., 'WATER_mitochondrion': 1.}	True
+mitochondrion_proton_exchange	None	{'PROTON': -1., 'PROTON_mitochondrion': 1.}	True
+mitochondrion_O2_exchange	None	{'OXYGEN-MOLECULE': -1., 'OXYGEN-MOLECULE_mitochondrion': 1.}	True
+mitochondrion_citrate_exchange	None	{'CIT': -1., 'CIT_mitochondrion': 1.}	True
+mitochondrion_fumarate_exchange	None	{'FUM': -1., 'FUM_mitochondrion': 1.}	True
+mitochondrion_oxaloacetate_exchange	None	{'OXALACETIC_ACID': -1., 'OXALACETIC_ACID_mitochondrion': 1.}	True
+mitochondrion_oxoglutarate_exchange	None	{'2-KETOGLUTARATE': -1., '2-KETOGLUTARATE_mitochondrion': 1.}	True
+# cis-aconitate exchange probably irrelevant; no other reactions to participate in
+mitochondrion_cisaconitate_exchange	None	{'CIS-ACONITATE': -1., 'CIS-ACONITATE_mitochondrion': 1.}	True
+mitochondrion_isocitrate_exchange	None	{'THREO-DS-ISO-CITRATE': -1., 'THREO-DS-ISO-CITRATE_mitochondrion': 1.}	True
+mitochondrion_malate_exchange	None	{'MAL': -1., 'MAL_mitochondrion': 1.}	True
+mitochondrion_succinate_exchange	None	{'SUC': -1., 'SUC_mitochondrion': 1.}	True
+mitochondrion_ATP_ADP_exchange	None	{'ADP': -1., '|Pi|': -1., 'ATP': 1., 'ADP_mitochondrion': 1., '|Pi|_mitochondrion': 1., 'ATP_mitochondrion': -1.}	True
+# photorespiratory transporters
+mitochondrion_serine_exchange	None	{'SER': -1., 'SER_mitochondrion': 1.}	True
+mitochondrion_glycine_exchange	None	{'GLY': -1., 'GLY_mitochondrion': 1.}	True
+mitochondrion_ammonia_exchange	None	{'AMMONIA': -1., 'AMMONIA_mitochondrion': 1.}	True
+
+# Per the CornCyc comment on PWY-5686, transport for these compounds must exist,
+# but hasn't been specifically identified; I have set up an antiporter for them 
+# for simplicify
+mitochondrion_orotate_exchange	None	{'DI-H-OROTATE': -1.0, 'OROTATE': 1., 'DI-H-OROTATE_mitochondrion': 1., 'OROTATE_mitochondrion': -1.}	True
+
+################################################################################
+# PEROXISOME
+peroxisome_CO2_exchange	None	{'CARBON-DIOXIDE': -1., 'CARBON-DIOXIDE_peroxisome': 1.}	True
+peroxisome_water_exchange	None	{'WATER': -1., 'WATER_peroxisome': 1.}	True
+peroxisome_proton_exchange	None	{'PROTON': -1., 'PROTON_peroxisome': 1.}	True
+peroxisome_O2_exchange	None	{'OXYGEN-MOLECULE': -1., 'OXYGEN-MOLECULE_peroxisome': 1.}	True
+peroxisome_glycolate_exchange	None	{'GLYCOLLATE': -1., 'GLYCOLLATE_peroxisome': 1.}	True
+peroxisome_glycerate_exchange	None	{'GLYCERATE': -1., 'GLYCERATE_peroxisome': 1.}	True
+peroxisome_serine_exchange	None	{'SER': -1., 'SER_peroxisome': 1.}	True
+peroxisome_glycine_exchange	None	{'GLY': -1., 'GLY_peroxisome': 1.}	True
+peroxisome_glutamate_exchange	None	{'GLT': -1., 'GLT_peroxisome': 1.}	True
+peroxisome_oxoglutarate_exchange	None	{'2-KETOGLUTARATE': -1., '2-KETOGLUTARATE_peroxisome': 1.}	True
+peroxisome_OAA_MAL_exchange	None	{'MAL': -1., 'OXALACETIC_ACID': 1., 'MAL_peroxisome': 1., 'OXALACETIC_ACID_peroxisome': -1.}	True

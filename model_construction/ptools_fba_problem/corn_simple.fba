@@ -1,0 +1,181 @@
+# This FBA model, modified from the Pathway Tools template files, is
+# used only to generate a list of reactions and their stoichiometries
+# (in the process of solving it.) The details of the problem do not matter
+# so long as the fixed set metab-all and no try reactions are used.
+
+# ----------------------------------------------------------------------
+# This file describes the generation of a FBA model or how to run a
+# FBA model with the FBA modeling tool of Pathway Tools.  
+
+# Each section starts with a keyword. A keyword is a word ending with
+# ':' and is not case-sensitive.  You can
+# leave a section empty unless otherwise stated.
+
+# All possible section keywords appear in this file.
+
+# The character '#' is used to write comments: the rest of the line
+# after a '#' is ignored.
+
+# ----------------------------------------------------------------------
+
+# Beginning of the sections.
+
+# A pgdb is a unique symbol denoting a PGDB (e.g., ecoli).
+# You can write "current-pgdb", and the PGDB used will be the one
+# currently selected in the FBA tool when this file is read.
+# Notice that most of the metabolites and reactions described
+# in this file are assumed to come from the specified pgdb.
+
+pgdb: corn
+
+# ======================================================================
+# Fixed sets. These sets could be empty.
+# ======================================================================
+
+#
+# The fixed set of reactions for the model. The word 'metab-all'
+# can be used to specify all metabolic reactions of the
+# pgdb. More reactions can be specified by using their unique
+# identifiers (frame-ids).
+#
+
+reactions:
+
+metab-all
+
+#
+# Temporarily disregard the specified reactions
+# for the generation of the model. These reactions
+# are removed from the set of reactions just specified.
+# This is useful if 'metab-all' contains some reactions
+# you do not want to include in the FBA model.
+
+remove-reactions:
+
+#
+# The fixed set of biomass metabolites.
+#
+
+biomass:
+
+PYRUVATE
+
+#
+# The fixed nutrients (metabolites) to use.
+#
+
+nutrients:
+
+SUCROSE
+SO4
+NO3
+OXYGEN
+Pi
+
+#
+# The fixed secretions (metabolites) to use.
+#
+
+secretions:
+
+WATER
+CARBON-DIOXIDE
+
+# ==============================================================================
+# Try sets. These sets could be empty. There can be several non-empty try sets.
+# If at least one try set is not empty, the FBA analysis is a gap filling FBA.
+# If there are no try sets, it is a standard FBA analysis.
+# ===============================================================================
+
+#
+# The biomass metabolites to try to add to the model.
+#
+
+try-biomass: 
+
+#
+# The nutrients (metabolites) to try to add to the model.
+#
+
+try-nutrients:
+
+# The try-reactions section describe the reactions to try to add to
+# the FBA model to increase its objective function.  You can use the word
+# 'metacyc-metab-all' which means all MetaCyc metabolic reactions. 
+# You can also add specific reactions using reaction equations.
+
+
+try-reactions: 
+
+#
+# The secretions (metabolites) to try to add to the model.
+#
+
+try-secretions:
+
+
+# Weights for the try sets. 
+#
+# Note: if no try-sets are given all these weights are not used.
+#       A weight is only meaningful if a corresponding try set
+#       is specified for it.
+
+# The weight for adding one nutrient. This value is typically a small negative value (cost).
+
+try-nutrients-weight: -1
+
+# The weight for adding one reaction from MetaCyc outside the taxonomic range of the PGDB.
+# This value is typically negative (cost).
+
+try-reactions-weight: -20
+
+# The weight for adding the reverse of a irreversible reaction from
+# the pgdb. This is typically negative (cost).
+
+try-reactions-reverse-weight: -2
+
+# The weight for adding the reverse of a irreversible reaction from
+# the MetaCyc. This is typically negative (cost).
+
+try-reactions-reverse-try-weight: -25
+
+# The weight for adding one reaction from MetaCyc in the taxonomic range of 
+# the pgdb. This is typically negative (cost).
+
+try-reactions-in-taxa-weight: -5
+
+# The weight for adding one reaction from MetaCyc with an unknown taxonomic range.
+# This is typically negative (cost).
+
+try-reactions-unknown-taxa-weight: -10
+
+# The weight for adding a secretion to the model. 
+
+try-secretions-weight: 2
+
+# The weight of adding one metabolite to the biomass. 
+# Typically, this is positive and at least ten times larger, 
+# in absolute value, than all the other weights.
+
+try-biomass-weight: 10000
+
+# Add, to the try-reactions set, the reverse of irreversible reactions 
+# provided by section reactions?
+
+try-add-reverse-rxns: no
+
+# Add, to the try-reactions set, the reverse of irreversible reactions 
+# provided by section try-reactions?
+
+try-add-reverse-try-rxns: yes
+
+# Other parameters.
+
+# The maximum number of seconds to let the solver run. If the solver
+# has not optimally solved the model after that time, a suboptimal solution
+# will be reported.
+
+max-time-solver: 300
+
+
+# End of File

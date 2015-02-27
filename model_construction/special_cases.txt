@@ -1,0 +1,155 @@
+# reaction_id	parent frame in CornCyc	stoichiometry dictionary	reversibility
+
+# Maintenance
+GenericATPase-mod	None	{'ADP': 1.0, 'ATP': -1.0, 'PROTON': 1.0, 'WATER': -1.0, '|Pi|': 1.0}	False
+GenericNADOxidase-mod	None	{'NADH': -1., 'NAD': 1., 'PROTON': 1.}	False
+GenericNADPOxidase-mod	None	{'NADPH': -1., 'NADP': 1., 'PROTON': 1.}	False
+
+# Mitochondrial ETC
+ComplexII-mod	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	{'UBIQUINONE-8': -1.0, 'FUM': 1.0, 'SUC': -1.0, 'CPD-9956': 1.0}	False
+ComplexIII-mod	1.10.2.2-RXN	{'|Cytochromes-C-Reduced|': 2, 'UBIQUINONE-8': 1, 'CPD-9956': -1.0, '|Cytochromes-C-Oxidized|': -2.0, 'PROTON_mitochondrial_intermembrane_space': 4.0, 'PROTON_mitochondrion': -2.0}	False
+ComplexIV-mod	CYTOCHROME-C-OXIDASE-RXN	{'WATER': 2, '|Cytochromes-C-Reduced|': -4.0, 'OXYGEN-MOLECULE': -1.0, '|Cytochromes-C-Oxidized|': 4, 'PROTON_mitochondrial_intermembrane_space': 4.0, 'PROTON_mitochondrion': -8.0}	False
+ComplexI-mod	NADH-DEHYDROG-A-RXN	{'NAD': 1.0, 'NADH': -1.0, 'PROTON_mitochondrial_intermembrane_space': 4.0, 'UBIQUINONE-8': -1.0, 'PROTON_mitochondrion': -5.0, 'CPD-9956': 1.0}	False
+ComplexV-mod	ATPSYN-RXN	{'WATER': 1.0, 'ATP': 1.0, 'ADP': -1, '|Pi|': -1, 'PROTON_mitochondrial_intermembrane_space': -3.0, 'PROTON_mitochondrion': 2.0}	False
+# double-check protein stoichiometries above again,
+# reconsider the decision to label the protons '_mitochondrion' at this level
+
+# Light reactions
+PhotosystemII-mod	PSII-RXN	{'WATER': -2.0, 'PLASTOQUINONE': -2.0, 'OXYGEN-MOLECULE': 1, '|Light|': -4.0, 'PLASTOQUINOL-1': 2., 'PROTON': -4., 'PROTON_thylakoid_lumen': 4.}	False
+PhotosystemI-mod	RXN490-3650	{'|Plastocyanin-Reduced|': -1.0, '|Oxidized-ferredoxins|': -1.0, '|Oxidized-Plastocyanins|': 1, '|Light|': -1.0, '|Reduced-ferredoxins|': 1}	False
+# Mehler reaction
+MehlerReaction	None	{'|Plastocyanin-Reduced|': -1.0, 'OXYGEN-MOLECULE': -1.0, '|Oxidized-Plastocyanins|': 1, '|Light|': -1.0, 'SUPER-OXIDE': 1}	False
+# Cytochrome bf6: assume Q cycle operates constantly
+CytochromeBF6Complex-mod	PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN	{'|Plastocyanin-Reduced|': 2, 'PLASTOQUINONE': 1, '|Oxidized-Plastocyanins|': -2.0, 'PLASTOQUINOL-1': -1.0, 'PROTON_thylakoid_lumen': 4.0, 'PROTON': -2.}	False
+CyclicElectronFlowPSI-mod	None	{'|Reduced-ferredoxins|': -2.0, '|Oxidized-ferredoxins|': 2.0, 'PLASTOQUINOL-1': 1., 'PLASTOQUINONE': -1., 'PROTON': -2.}	False
+ChloroplasticATPase-mod	ATPSYN-RXN	{'WATER': 3.0, 'ATP': 3.0, 'ADP': -3., '|Pi|': -3., 'PROTON_thylakoid_lumen': -14.0, 'PROTON': 11.0}	False
+# Make ferredoxin-NADP oxidoreductase reversible
+1.18.1.2-RXN	1.18.1.2-RXN	{'NADPH': 1.0, '|Oxidized-ferredoxins|': 2.0, 'NADP': -1.0, 'PROTON': -1.0, '|Reduced-ferredoxins|': -2.0}	True
+
+# Reactive oxygen species detoxification in the chloroplast
+MDHFerredoxinReduction	None	{'|Reduced-ferredoxins|': -1., '|Oxidized-ferredoxins|': 1., 'CPD-318': -1., 'ASCORBATE': 1.}	False
+
+# Nucleotides biosynthesis
+RXN0-6491_mod	RXN0-6491	{'UBIQUINONE-8': -1.0, 'DI-H-OROTATE': -1.0, 'OROTATE': 1.0, 'CPD-9956': 1.0}	False
+
+# DNA and RNA production
+DNAPolymerase-mod	DNA-DIRECTED-DNA-POLYMERASE-RXN	{'DATP': -1., 'DGTP': -1., 'DCTP': -1., 'TTP': -1., 'DNA_base_equivalent': 4., 'PPI': 4.}	False
+RNAPolymerase-mod	DNA-DIRECTED-RNA-POLYMERASE-RXN	{'ATP': -1., 'GTP': -1., 'CTP': -1., 'UTP': -1., 'RNA_base_equivalent': 4., 'PPI': 4.}	False
+
+# Cellulose synthesis
+CELLULOSE-SYNTHASE-mod	CELLULOSE-SYNTHASE-UDP-FORMING-RXN	{'UDP-GLUCOSE': -1.0, 'UDP': 1, 'CELLULOSE_monomer_equivalent': 1.0}	False
+
+# Hemicellulose synthesis
+XylanSynthase-mod	RXN-9104	{'UDP-D-XYLOSE': -1., '1-4-beta-D-xylan-monomer-equivalent': 1., 'UDP': 1.}	False
+ArabinoxylanSynthesis-mod	RXN-9093	{'1-4-beta-D-xylan-monomer-equivalent': -1., 'UDP-L-ARABINOSE': -1., 'Arabinoxylan-monomer-equivalent': 1., 'UDP': 1.}	False
+GlucuronoxylanSynthesis-mod	RXN-9094	{'1-4-beta-D-xylan-monomer-equivalent': -1., 'UDP-GLUCURONATE': -1., 'Glucuronoxylan-monomer-equivalent': 1., 'UDP': 1.}	False
+GlucomannanSynthase-mod	2.4.1.32-RXN	{'GDP-MANNOSE': -1., 'GDP': 1., 'Glucomannan-monomer-equivalent': 1.}	False
+XyloglucanSynthesis-mod	RXN-9461	{'CELLULOSE_monomer_equivalent': -1., 'UDP-D-XYLOSE': -1., 'UDP': 1., 'Xyloglucan-monomer-equivalent': 1.0}	False
+
+# Other cell wall components synthesis
+HomogalacturonanSynthesis-mod	2.4.1.43-RXN	{'UDP-D-GALACTURONATE': -1., 'Homogalacturonan-monomer-equivalent': 1., 'UDP': 1.}	False
+XylogalacturonanSynthesis-mod	RXN-9589	{'UDP-D-XYLOSE': -1., 'Homogalacturonan-monomer-equivalent': -1., 'Xylogalacturonan-monomer-equivalent': 1., 'UDP': 1.}	False
+CalloseSynthesis-mod	13-BETA-GLUCAN-SYNTHASE-RXN	{'UDP-GLUCOSE': -1., '1-3-beta-D-glucan-monomer-equivalent': 1., 'UDP': 1.}	False
+
+# Starch synthesis
+GLYCOGENSYN-RXN-mod	GLYCOGENSYN-RXN	{'ADP-D-GLUCOSE': -1.0, '1-4-alpha-D-Glucan_monomer_equivalent': 1.0, 'ADP': 1}	False
+RXN-7710-mod	RXN-7710	{'1-4-alpha-D-Glucan_monomer_equivalent': -1., 'amylopectin_monomer_equivalent': 1.}	False
+
+# Generic polysaccharide synthesis
+ArabinoseTransfer-mod	None	{'UDP-L-ARABINOSE': -1., 'polysaccharide_arabinose_unit': 1., 'UDP': 1.}	False
+GlucoseTransfer-mod	None	{'UDP-GLUCOSE': -1., 'polysaccharide_glucose_unit': 1., 'UDP': 1.}	False
+XyloseTransfer-mod	None	{'UDP-D-XYLOSE': -1., 'polysaccharide_xylose_unit': 1., 'UDP': 1.}	False
+GlucuronateTransfer-mod	None	{'UDP-GLUCURONATE': -1., 'polysaccharide_glucuronate_unit': 1., 'UDP': 1.}	False
+GalacturonateTransfer-mod	None	{'UDP-D-GALACTURONATE': -1., 'polysaccharide_galacturonate_unit': 1., 'UDP': 1.}	False
+MannoseTransfer-mod	None	{'GDP-MANNOSE': -1., 'polysaccharide_mannose_unit': 1., 'GDP': 1.}	False
+GalactoseTransfer-mod	None	{'GDP-L-GALACTOSE': -1., 'polysaccharide_galactose_unit': 1., 'GDP': 1.}	False
+
+# Starch degradation
+# Starch conditioning reactions (a starch subunit -> an exposed starch subunit)
+RXN-12203-mod	RXN-12203	{'starch_monomer_equivalent': -1., 'exposed_starch_monomer_equivalent': 1.}	False
+RXN-12204-mod	RXN-12204	{'starch_monomer_equivalent': -1., 'exposed_starch_monomer_equivalent': 1.}	False
+RXN-12280-mod	RXN-12280	{'starch_monomer_equivalent': -1., 'exposed_starch_monomer_equivalent': 1.}	False
+#RXN-12276-mod (no associated genes)
+#RXN-12277-mod (no associated genes)
+# Starch depolymerization
+# Disproportionating enzyme
+RXN-12391-mod	RXN-12391	{'exposed_starch_monomer_equivalent': -1., 'WATER': -1., 'GLC': 1.}	False
+# beta amylase
+# Note there are diverse reactions in the database which break down starch 
+# and release maltose in one form or another (see RXN-12278 and others within
+# the starch degradation pathway); notes in the pathway description
+# indicate that beta amylases are responsible for much of this activity,
+# so I have temporarily associated it with RXN-1827, a beta amylase
+# with many associated genes (though note that RXN-1827 releases
+# alpha-maltose!)  
+RXN-1827-mod	RXN-1827	{'exposed_starch_monomer_equivalent': -2., 'WATER': -1., 'MALTOSE': 2.}	False
+
+# Fatty acid synthesis 
+3.1.2.14-RXN-mod	3.1.2.14-RXN	{'WATER': -1.0, '|Oleoyl-ACPs|': -1.0, 'ACP': 1., 'OLEATE-CPD': 1., 'PROTON': 1.}	False
+LinoleoylLipase-mod	None	{'|Linoleoyl-groups|': -1., 'LINOLEIC_ACID': 1., 'WATER': -1., 'PROTON': 2., '|Lipids|': 1.}	False
+LinolenoylLipase-mod	None	{'|Alpha-linolenoyl-groups|': -1., 'LINOLENIC_ACID': 1., 'WATER': -1., 'PROTON': 2., '|Lipids|': 1.}	False
+RXN-8389-mod	None	{'|Palmitoyl-ACPs|': -1., 'NADH': -1., 'PROTON': -1., 'OXYGEN-MOLECULE': -1., '|Palmitoleoyl-ACPs|': 1., 'NAD': 1., 'WATER': 2.}	False
+RXN-9669	RXN-9669	{'NAD': 1.0, 'WATER': 2.0, 'OXYGEN-MOLECULE': -1.0, '|Linoleoyl-groups|': 1.0, 'NADH': -1.0, 'PROTON': -1., '|Oleoyl-groups|': -1.0}	False
+RXN-9667	RXN-9667	{'|Alpha-linolenoyl-groups|': 1.0, 'NAD': 1.0, 'WATER': 2.0, 'OXYGEN-MOLECULE': -1.0, 'NADH': -1.0, 'PROTON': -1., '|Linoleoyl-groups|': -1.0}	True
+RXN-7903	RXN-7903	{'|Stearoyl-ACPs|': -1., '|Reduced-ferredoxins|': -2., 'OXYGEN-MOLECULE': -1., 'PROTON': -2., '|Oleoyl-ACPs|': 1., '|Oxidized-ferredoxins|': 2., 'WATER': 2.}	False
+
+# Lipid synthesis
+Glycerol3POAcyltransferase-mod	RXN-10462	{'|Oleoyl-ACPs|': -1.0, 'GLYCEROL-3P': -1.0, 'ACP': 1, 'ACYL-SN-GLYCEROL-3P': 1}	False
+1acylglycerol3POAcyltransferase-mod	1-ACYLGLYCEROL-3-P-ACYLTRANSFER-RXN	{'|Palmitoyl-ACPs|': -1.0, 'L-PHOSPHATIDATE': 1, 'ACP': 1, 'ACYL-SN-GLYCEROL-3P': -1.0}	False
+UDPGLUCEPIM-RXN-mod	UDPGLUCEPIM-RXN	{'UDP-GLUCOSE': 1.0, 'CPD-14553': -1.0}	True
+
+# Oxalate precursors
+AscorbateProduction-mod_mitochondrion	GALACTONOLACTONE-DEHYDROGENASE-RXN	{'|Cytochromes-C-Reduced|_mitochondrion': 2, 'CPD-330': -1.0, '|Cytochromes-C-Oxidized|_mitochondrion': -2.0, 'PROTON': 2, 'ASCORBATE': 1}	False
+OXALOACETASE-RXN-MOD	None	{'OXALACETIC_ACID': -1., 'WATER': -1., 'OXALATE': 1., 'ACET': 1., 'PROTON': 1.}	False
+
+# Reactions with overly specific descriptions of their UDP-glucose substrates
+RXN-1223	RXN-1223	{'UDP-SULFOQUINOVOSE': 1.0, 'WATER': 1.0, 'SO3': -1.0, 'UDP-GLUCOSE': -1.0, 'PROTON': -1.0}	False
+
+# Ascorbate-glutathione cycle
+# One reaction of the cycle relies on splitting RXN-12440 into its component
+# subreactions and diverting some of the monodehydroascorbate intermediate
+#RXN-12440	RXN-12440	{'L-DEHYDRO-ASCORBATE': 1.0, 'WATER': 2.0, 'HYDROGEN-PEROXIDE': -1.0, 'PROTON': -1.0, 'ASCORBATE': -1.0}	False
+RXN-3521	RXN-3521	{'ASCORBATE': -2.0, 'PROTON': -2.0, 'HYDROGEN-PEROXIDE': -1.0, 'WATER': 2.0, 'CPD-318': 2.0}	False
+RXN-3523	RXN-3523	{'CPD-318': -2.0, 'ASCORBATE': 1.0, 'PROTON': 1.0, 'L-DEHYDRO-ASCORBATE': 1.0}	False
+
+# Gamma-glutamyl cycle
+GammaGlutamyltransferase-mod	RXN-6601	{'GLUTATHIONE': -1., '5-OXOPROLINE': 1., 'CYS': 1., 'GLY': 1., 'WATER': -1.}	False
+
+# Proline degradation
+# (note, in truth should be mitochondrial, and donate 
+# electrons directly to the ETC)
+RXN-821-mod	RXN-821	{'L-DELTA1-PYRROLINE_5-CARBOXYLATE': 1.0, 'NADH': 1.0, 'PRO': -1.0, 'PROTON': 2.0, 'NAD': -1.0}	False
+
+# Split myo-inositol-1-phosphate synthase into two instances consuming
+# alpha and beta G6P, rather than generic G6P
+MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN-alpha	MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN	{'1-L-MYO-INOSITOL-1-P': 1.0, 'ALPHA-GLC-6-P': -1.0}	False
+MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN-beta	MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN	{'1-L-MYO-INOSITOL-1-P': 1.0, 'GLC-6-P': -1.0}	False
+
+# Free galactose for the fixed-proportions biomass equation
+AbstractFreeGalactoseSynthesis	None	{'GDP-L-GALACTOSE': -1., 'WATER': -1., 'GALACTOSE': 1., 'GDP': 1., 'PROTON': 1.}	False
+
+# Amino acid sinks
+# These are special-cased because they are associated
+# with the amino acid-tRNA ligase reactions, unlike
+# most of the biomass sinks. 
+sink_ARG	ARGININE--TRNA-LIGASE-RXN	{'ARG_biomass': 1.0, 'ARG': -1.0}	False
+sink_ASN	ASPARAGINE--TRNA-LIGASE-RXN	{'ASN_biomass': 1.0, 'ASN': -1.0}	False
+sink_CYS	CYSTEINE--TRNA-LIGASE-RXN	{'CYS': -1.0, 'CYS_biomass': 1.0}	False
+sink_GLN	GLUTAMINE--TRNA-LIGASE-RXN	{'GLN_biomass': 1.0, 'GLN': -1.0}	False
+sink_GLT	GLURS-RXN	{'GLT_biomass': 1.0, 'GLT': -1.0}	False
+sink_GLY	GLYCINE--TRNA-LIGASE-RXN	{'GLY': -1.0, 'GLY_biomass': 1.0}	False
+sink_HIS	HISTIDINE--TRNA-LIGASE-RXN	{'HIS': -1.0, 'HIS_biomass': 1.0}	False
+sink_ILE	ISOLEUCINE--TRNA-LIGASE-RXN	{'ILE': -1.0, 'ILE_biomass': 1.0}	False
+sink_L-ALPHA-ALANINE	ALANINE--TRNA-LIGASE-RXN	{'L-ALPHA-ALANINE': -1.0, 'L-ALPHA-ALANINE_biomass': 1.0}	False
+sink_L-ASPARTATE	ASPARTATE--TRNA-LIGASE-RXN	{'L-ASPARTATE': -1.0, 'L-ASPARTATE_biomass': 1.0}	False
+sink_LEU	LEUCINE--TRNA-LIGASE-RXN	{'LEU_biomass': 1.0, 'LEU': -1.0}	False
+sink_LYS	LYSINE--TRNA-LIGASE-RXN	{'LYS_biomass': 1.0, 'LYS': -1.0}	False
+sink_MET	METHIONINE--TRNA-LIGASE-RXN	{'MET': -1.0, 'MET_biomass': 1.0}	False
+sink_PHE	PHENYLALANINE--TRNA-LIGASE-RXN	{'PHE_biomass': 1.0, 'PHE': -1.0}	False
+sink_PRO	PROLINE--TRNA-LIGASE-RXN	{'PRO': -1.0, 'PRO_biomass': 1.0}	False
+sink_SER	SERINE--TRNA-LIGASE-RXN	{'SER_biomass': 1.0, 'SER': -1.0}	False
+sink_THR	THREONINE--TRNA-LIGASE-RXN	{'THR_biomass': 1.0, 'THR': -1.0}	False
+sink_TRP	TRYPTOPHAN--TRNA-LIGASE-RXN	{'TRP': -1.0, 'TRP_biomass': 1.0}	False
+sink_TYR	TYROSINE--TRNA-LIGASE-RXN	{'TYR_biomass': 1.0, 'TYR': -1.0}	False
+sink_VAL	VALINE--TRNA-LIGASE-RXN	{'VAL_biomass': 1.0, 'VAL': -1.0}	False
+ 

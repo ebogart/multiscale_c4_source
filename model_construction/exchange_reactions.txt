@@ -1,0 +1,36 @@
+CARBON-DIOXIDE	intercellular_air_space
+OXYGEN-MOLECULE	intercellular_air_space
+WATER	xylem
+PROTON	xylem
+NITRATE	xylem
+SULFATE	xylem
+|Pi|	xylem
+|Light|
+MG+2	xylem
+
+SUCROSE	phloem
+L-ALPHA-ALANINE	phloem
+ARG	phloem
+ASN	phloem
+L-ASPARTATE	phloem
+#CYS	phloem
+#GLN	phloem
+GLT	phloem
+GLY	phloem
+HIS	phloem
+ILE	phloem
+LEU	phloem
+LYS	phloem
+MET	phloem
+PHE	phloem
+#PRO	phloem
+SER	phloem
+THR	phloem
+#TRP	phloem
+TYR	phloem
+# Ohshima et al mention valine in the sap, even though they 
+# don't provide a concentration measurement for it
+VAL	phloem
+
+GLUTATHIONE	phloem
+CPD-397	phloem

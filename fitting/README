@@ -1,0 +1,27 @@
+Input files:
+
+data:
+WL_maizev2FGS_fpkm.xls: 
+	RNA-seq results from Wang, L., et al, 
+	"Comparative analyses of C4 and C3 photosynthesis 
+	in developing leaves of maize and rice", 
+	Nature Biotechnology 32:1158-1165 (2014), as provided by 
+	Qi Sun and Zehong Ding
+enzyme_means.csv
+enzyme_stds.csv:
+	Enzyme activity assay results from Wang (2014), reformatted
+	from supplementary files.
+lcm_data.csv: 
+	RNA-seq results from Tausta, S.L., et al, 
+	"Developmental dynamics of Kranz cell transcriptional specificity
+	in maize leaf reveals early onset of C4-related processes",
+	J. Exp. Bot 65:3543:3555 (2014), reformatted from files
+	provided by Lori Tausta. 
+
+model:
+iEB2104x2.xml: two-cell version of high-confidence model as described in 
+	text.
+
+Regenerating results:
+
+See regenerate.sh.

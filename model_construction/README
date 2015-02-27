@@ -1,0 +1,57 @@
+These data files and scripts serve to produce a functional FBA model from CornCyc.
+
+ptools_fba_problem/corn_simple.fba is a (trivial) Pathway Tools FBA model specification,
+setting up a problem including all metabolic reactions from CornCyc.
+
+Solving it with the Pathway Tools FBA model yields
+ptools_fba_problem/corn_simple.sol, which lists the stoichiometries of
+all reactions used in the FBA calculation (both those that carried
+flux and those that did not.)  This list of stoichiometries is an
+ideal starting point for further model-building as it excludes
+unbalanced reactions, etc., while including instantiated forms of
+reactions involving compound classes as substrates.
+
+extract_from_ptools.sh calls additional Python scripts to process
+corn_simple.sol, extracting and summarizing reaction information from
+it and translating the reactants from their names (e.g., 'D-ribose
+5-phosphate') to their Pathway Tools frames (e.g., 'RIBOSE-5P') to
+avoid ambiguity and allow easy comparison to older models written in
+terms of frames.  This script requires a running Pathway Tools
+instance, the pycyc package, and a local copy of CornCyc. It produces: 
+    - corn_table.txt, a table of reactions;
+    - corn_exclusions.txt, a log of reactions in corn_simple.sol excluded 
+      from corn_table.txt for one reason or another
+    - gene_to_corncyc_reaction_indirect.txt, 
+      gene_to_corncyc_reaction_direct.txt,
+      corncyc_global_gra.txt: tables of (gene, reaction) pairs supported by the 
+      database
+    - corn_name_hints.txt, the common name of each species and
+      reaction in the database, for use as their name in a later SBML
+      version.
+
+build_model.sh handles the remaining steps in the model 
+assembly process, most of which do not require direct interaction 
+with Pathway Tools. It:
+    - Adds reactions which require special attention, from special_cases.txt
+    - Purges some reactions which have problematic stoichiometries (e.g., the 
+      many effective ATPases) 
+    - Adds biomass sinks from biomass_components.txt
+    - Adds external transport reactions from exchange_reactions.txt
+    - Compartmentalizes the model per corn_compartments.txt
+    - Adds intracellular transporters from corn_intracellular_transport.txt
+      (producing a version of the model as a text file listing reactions, 
+      their stoichiometries, the frames in the parent DB with which they 
+      are associated, and their reversibilities, corn_full.txt)
+    - Writes corn_fba.xml, an SBML (level 2 version 4) representation
+      of the resulting model
+    - Adds gene information to the reactions of the model (storing this in the 
+      SBML Notes elements of the reactions, following the COBRA convention),
+      iEB5204.xml
+    - Builds a reduced version of the model, excluding as many
+      reactions which either lack genes or lack an assigment to a
+      pathway in CornCyc as possible, while still maintaining
+      functionality, iEB2140.xml (note, this step does require
+      pycyc, Pathway Tools in API mode, and a local copy of CornCyc). 
+    - Converts this to a two-cell model representing interacting mesophyll and
+      bundle sheath compartments, iEB2140x2.xml
+
